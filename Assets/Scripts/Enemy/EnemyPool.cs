@@ -5,22 +5,14 @@ namespace ShootEmUp
 {
     public sealed class EnemyPool : MonoBehaviour
     {
-        [Header("Spawn")]
         [SerializeField]
-        private EnemyPositions enemyPositions;
+        private Transform worldContainer;
 
         [SerializeField]
-        private GameObject character;
+        private Transform poolContainer;
 
         [SerializeField]
-        private Transform worldTransform;
-
-        [Header("Pool")]
-        [SerializeField]
-        private Transform container;
-
-        [SerializeField]
-        private GameObject prefab;
+        private GameObject enemyPrefab;
 
         private readonly Queue<GameObject> enemyPool = new();
         
@@ -28,33 +20,24 @@ namespace ShootEmUp
         {
             for (var i = 0; i < 7; i++)
             {
-                var enemy = Instantiate(this.prefab, this.container);
+                GameObject enemy = Instantiate(this.enemyPrefab, this.poolContainer);
                 this.enemyPool.Enqueue(enemy);
             }
         }
 
-        public GameObject SpawnEnemy()
+        public GameObject GetEnemy()
         {
             if (!this.enemyPool.TryDequeue(out var enemy))
             {
                 return null;
             }
-
-            enemy.transform.SetParent(this.worldTransform);
-
-            var spawnPosition = this.enemyPositions.RandomSpawnPosition();
-            enemy.transform.position = spawnPosition.position;
-            
-            var attackPosition = this.enemyPositions.RandomAttackPosition();
-            enemy.GetComponent<EnemyMoveAgent>().SetDestination(attackPosition.position);
-
-            enemy.GetComponent<EnemyAttackAgent>().SetTarget(this.character);
+            enemy.transform.SetParent(this.worldContainer);
             return enemy;
         }
 
-        public void UnspawnEnemy(GameObject enemy)
+        public void RemoveEnemy(GameObject enemy)
         {
-            enemy.transform.SetParent(this.container);
+            enemy.transform.SetParent(this.poolContainer);
             this.enemyPool.Enqueue(enemy);
         }
     }

@@ -5,10 +5,13 @@ namespace ShootEmUp
 {
     public sealed class Bullet : MonoBehaviour
     {
-        public event Action<Bullet, Collision2D> OnCollisionEntered;
+        public event Action<Bullet> OnDestroy;
 
-        [NonSerialized] public bool isPlayer;
-        [NonSerialized] public int damage;
+        [NonSerialized]
+        public bool isPlayer;
+
+        [NonSerialized]
+        public int damage;
 
         [SerializeField]
         private new Rigidbody2D rigidbody2D;
@@ -18,12 +21,13 @@ namespace ShootEmUp
 
         private void OnCollisionEnter2D(Collision2D collision)
         {
-            this.OnCollisionEntered?.Invoke(this, collision);
+            BulletUtils.DealDamage(this, collision.gameObject);
+            this.Destroy();
         }
 
         public void SetVelocity(Vector2 velocity)
         {
-            this.rigidbody2D.velocity = velocity;
+            this.rigidbody2D.linearVelocity = velocity;
         }
 
         public void SetPhysicsLayer(int physicsLayer)
@@ -39,6 +43,11 @@ namespace ShootEmUp
         public void SetColor(Color color)
         {
             this.spriteRenderer.color = color;
+        }
+
+        public void Destroy()
+        {
+            this.OnDestroy?.Invoke(this);
         }
     }
 }

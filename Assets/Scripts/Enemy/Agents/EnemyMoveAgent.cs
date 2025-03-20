@@ -2,6 +2,7 @@ using UnityEngine;
 
 namespace ShootEmUp
 {
+    [RequireComponent(typeof(MoveComponent))]
     public sealed class EnemyMoveAgent : MonoBehaviour
     {
         public bool IsReached
@@ -9,18 +10,21 @@ namespace ShootEmUp
             get { return this.isReached; }
         }
 
-        [SerializeField] private MoveComponent moveComponent;
+        private bool isReached;
 
         private Vector2 destination;
 
-        private bool isReached;
-
-        public void SetDestination(Vector2 endPoint)
+        public void SetDestination(Vector2 destination)
         {
-            this.destination = endPoint;
+            this.destination = destination;
             this.isReached = false;
+            SetDirection((this.destination - (Vector2)this.gameObject.transform.position).normalized);
         }
 
+        private void SetDirection(Vector2 direction)
+        {
+            this.gameObject.GetComponent<MoveComponent>().ChangeDirection(direction);
+        }
         private void FixedUpdate()
         {
             if (this.isReached)
@@ -28,15 +32,13 @@ namespace ShootEmUp
                 return;
             }
             
-            var vector = this.destination - (Vector2) this.transform.position;
-            if (vector.magnitude <= 0.25f)
+            float distance = (this.destination - (Vector2) this.transform.position).magnitude;
+            if (distance <= 0.25f)
             {
                 this.isReached = true;
+                SetDirection(Vector2.zero);
                 return;
             }
-
-            var direction = vector.normalized * Time.fixedDeltaTime;
-            this.moveComponent.MoveByRigidbodyVelocity(direction);
         }
     }
 }

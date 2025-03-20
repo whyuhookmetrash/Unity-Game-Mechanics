@@ -1,56 +1,46 @@
+using System;
 using UnityEngine;
 
 namespace ShootEmUp
 {
+    [RequireComponent(typeof(WeaponComponent))]
+    [RequireComponent(typeof(EnemyMoveAgent))]
     public sealed class EnemyAttackAgent : MonoBehaviour
     {
-        public delegate void FireHandler(GameObject enemy, Vector2 position, Vector2 direction);
-
-        public event FireHandler OnFire;
-
-        [SerializeField] private WeaponComponent weaponComponent;
-        [SerializeField] private EnemyMoveAgent moveAgent;
-        [SerializeField] private float countdown;
 
         private GameObject target;
-        private float currentTime;
 
         public void SetTarget(GameObject target)
         {
             this.target = target;
         }
 
-        public void Reset()
-        {
-            this.currentTime = this.countdown;
-        }
-
         private void FixedUpdate()
         {
-            if (!this.moveAgent.IsReached)
-            {
-                return;
-            }
-            
-            if (!this.target.GetComponent<HitPointsComponent>().IsHitPointsExists())
+            /* 
+            Ќа сколько тактично вызывать GetComponent на каждом кадре игры?
+            ≈сли не рассматривать DI, то не лучше ли было бы закешировать переменную enemyMoveAgent и weaponComponent?
+            —делать private пол€ и опрокинуть их в Awake или сделать private и закидывать через serializefield(второе кажетс€ не удобным)?
+             */
+            if (!this.gameObject.GetComponent<EnemyMoveAgent>().IsReached)
             {
                 return;
             }
 
-            this.currentTime -= Time.fixedDeltaTime;
-            if (this.currentTime <= 0)
+            if (!this.gameObject.GetComponent<WeaponComponent>().canShoot)
             {
-                this.Fire();
-                this.currentTime += this.countdown;
+                return;
             }
+
+            this.Shoot();
         }
 
-        private void Fire()
+        private void Shoot()
         {
-            var startPosition = this.weaponComponent.Position;
-            var vector = (Vector2) this.target.transform.position - startPosition;
-            var direction = vector.normalized;
-            this.OnFire?.Invoke(this.gameObject, startPosition, direction);
+            WeaponComponent weaponComponent = this.gameObject.GetComponent<WeaponComponent>();
+            Vector2 startPosition = weaponComponent.firePosition;
+            Vector2 direction = ((Vector2) this.target.transform.position - startPosition).normalized;
+            weaponComponent.Shoot(direction);
         }
     }
 }
