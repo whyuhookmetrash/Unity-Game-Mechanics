@@ -1,10 +1,11 @@
-using System.Collections;
+
 using System.Collections.Generic;
 using UnityEngine;
 
 namespace ShootEmUp
 {
-    public sealed class EnemySpawner : MonoBehaviour
+    public sealed class EnemySpawner : GameMonoBehaviour,
+        IGameFixedTickable
     {
         [SerializeField]
         private EnemyPositions enemyPositions;
@@ -15,8 +16,23 @@ namespace ShootEmUp
         [SerializeField]
         private EnemyFactory enemyFactory;
 
+        [SerializeField]
+        private float spawnTime;
+
+        private float timeFromStart;
+        private float nextSpawnTime;
+        private float lastSpawnTime;
+
         private readonly HashSet<GameObject> activeEnemies = new();
 
+        private void Awake()
+        {
+            timeFromStart = 0f;
+            nextSpawnTime = spawnTime;
+            lastSpawnTime = 0f;
+        }
+
+        /*
         private IEnumerator Start()
         {
             while (true)
@@ -24,6 +40,26 @@ namespace ShootEmUp
                 yield return new WaitForSeconds(1);
                 this.SpawnEnemy();
             }
+        }
+        */
+
+        // QUESTION: На сколько тактично заменить конструкцию IEnumerator Start на конструкцию такого вида?
+        void IGameFixedTickable.FixedTick(float deltaTime)
+        {
+            timeFromStart += deltaTime;
+
+            if(timeFromStart > nextSpawnTime)
+            {
+                var spawnCount = 1 + (int) ((timeFromStart - nextSpawnTime) / spawnTime);
+                lastSpawnTime += spawnTime * spawnCount;
+                nextSpawnTime = lastSpawnTime + spawnTime;
+
+                for (int i = 0; i < spawnCount; i++)
+                {
+                    this.SpawnEnemy();
+                }
+            }
+
         }
 
         private void SpawnEnemy()
@@ -47,5 +83,6 @@ namespace ShootEmUp
                 enemy.GetComponent<HitPointsComponent>().OnHpEmpty -= this.OnEnemyDestroyed;
             }
         }
+
     }
 }

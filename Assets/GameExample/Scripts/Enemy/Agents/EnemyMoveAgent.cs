@@ -3,7 +3,8 @@ using UnityEngine;
 namespace ShootEmUp
 {
     [RequireComponent(typeof(MoveComponent))]
-    public sealed class EnemyMoveAgent : MonoBehaviour
+    public sealed class EnemyMoveAgent : GameMonoBehaviour,
+        IGameFixedTickable
     {
         public bool IsReached
         {
@@ -25,7 +26,7 @@ namespace ShootEmUp
         {
             this.gameObject.GetComponent<MoveComponent>().ChangeDirection(direction);
         }
-        private void FixedUpdate()
+        void IGameFixedTickable.FixedTick(float deltaTime)
         {
             if (this.isReached)
             {
@@ -40,5 +41,6 @@ namespace ShootEmUp
                 return;
             }
         }
+
     }
 }

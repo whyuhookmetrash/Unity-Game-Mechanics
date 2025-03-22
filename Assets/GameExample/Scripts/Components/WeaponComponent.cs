@@ -3,7 +3,8 @@ using UnityEngine;
 namespace ShootEmUp
 {
     [RequireComponent(typeof(TeamComponent))]
-    public sealed class WeaponComponent : MonoBehaviour
+    public sealed class WeaponComponent : GameMonoBehaviour,
+        IGameFixedTickable
     {
         [SerializeField] 
         private BulletFactory bulletFactory;
@@ -30,7 +31,7 @@ namespace ShootEmUp
             bulletFactory = FindAnyObjectByType<BulletFactory>();
         }
 
-        private void FixedUpdate()
+        void IGameFixedTickable.FixedTick(float deltaTime)
         {
             this.rechargeCurrentTime -= Time.fixedDeltaTime;
             if (this.rechargeCurrentTime <= 0)
@@ -38,7 +39,7 @@ namespace ShootEmUp
                 this.canShoot = true;
             }
         }
-        //TODO добавить перезарядку
+
         public void Shoot(Vector2 shootDirection)
         {
             if (!this.canShoot)
@@ -49,7 +50,7 @@ namespace ShootEmUp
             this.rechargeCurrentTime = this.rechargeCountdown;
 
             shootDirection = shootDirection.normalized;
-            bulletFactory.CreateBulletByArgs(new BulletFactory.Args
+            this.bulletFactory.CreateBulletByArgs(new BulletFactory.Args
             {
                 isPlayer = this.gameObject.GetComponent<TeamComponent>().IsPlayer,
                 physicsLayer = (int)this.bulletConfig.physicsLayer,
@@ -59,5 +60,6 @@ namespace ShootEmUp
                 velocity = this.bulletConfig.speed * shootDirection
             });
         }
+
     }
 }

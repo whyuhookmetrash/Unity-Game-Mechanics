@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace ShootEmUp
 {
-    public sealed class BulletFactory : MonoBehaviour
+    public sealed class BulletFactory : GameMonoBehaviour
     {
         [SerializeField]
         private BulletPool bulletPool;
@@ -22,21 +22,21 @@ namespace ShootEmUp
             bullet.isPlayer = args.isPlayer;
             bullet.SetVelocity(args.velocity);
 
-            bullet.OnDestroy += bulletPool.DestroyBullet;
+            bullet.OnBulletDestroy += bulletPool.DestroyBullet;
 
             bulletManager.AddActiveBullet(bullet);
-            bullet.OnDestroy += bulletManager.RemoveActiveBullet;
+            bullet.OnBulletDestroy += bulletManager.RemoveActiveBullet;
 
-            bullet.OnDestroy += this.OnBulletDestroy;
+            bullet.OnBulletDestroy += this.OnBulletDestroy;
 
             return bullet;
         }
 
         private void OnBulletDestroy(Bullet bullet)
         {
-            bullet.OnDestroy -= bulletPool.DestroyBullet;
-            bullet.OnDestroy -= bulletManager.RemoveActiveBullet;
-            bullet.OnDestroy -= this.OnBulletDestroy;
+            bullet.OnBulletDestroy -= bulletPool.DestroyBullet;
+            bullet.OnBulletDestroy -= bulletManager.RemoveActiveBullet;
+            bullet.OnBulletDestroy -= this.OnBulletDestroy;
         }
 
         public struct Args

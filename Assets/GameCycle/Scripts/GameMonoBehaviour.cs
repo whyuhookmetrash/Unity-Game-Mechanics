@@ -2,7 +2,10 @@ using UnityEngine;
 
 public class GameMonoBehaviour: MonoBehaviour
 {
-    protected virtual void Awake()
+    /* QUESTION:
+    Имеет ли место быть такой способ регистрации объектов в реальном времени? 
+    */
+    private void OnEnable()
     {
         if (this is IGameListener listener)
         {
@@ -14,7 +17,7 @@ public class GameMonoBehaviour: MonoBehaviour
         }
     }
 
-    protected virtual void OnDestroy()
+    private void OnDisable()
     {
         if (this is IGameListener listener)
         {

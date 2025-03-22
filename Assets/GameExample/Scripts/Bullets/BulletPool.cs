@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace ShootEmUp
 {
-    public sealed class BulletPool : MonoBehaviour
+    public sealed class BulletPool : GameMonoBehaviour
     {
         [SerializeField]
         private int initialCount = 50;

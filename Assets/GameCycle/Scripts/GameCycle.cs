@@ -1,5 +1,8 @@
 
+using NUnit.Framework;
+using ShootEmUp;
 using System.Collections.Generic;
+using System.Runtime.InteropServices.WindowsRuntime;
 using UnityEngine;
 
 public sealed class GameCycle : MonoBehaviour
@@ -30,7 +33,7 @@ public sealed class GameCycle : MonoBehaviour
         _mainState = GameState.OFF;
     }
 
-    
+
     #region ADD AND REMOVE LISTENERS
     public void AddListener(IGameListener listener)
     {
@@ -116,12 +119,15 @@ public sealed class GameCycle : MonoBehaviour
         {
             _mainState = GameState.PLAY;
 
-            foreach (var it in _gameListeners)
+            List<IGameListener> cache = new List<IGameListener>();
+            cache.AddRange(_gameListeners);
+
+            foreach (var it in cache)
             {
                 if (it is IGameStartListener listener)
                 {
                     listener.OnGameStart();
-                } 
+                }
             }
         }
     }
@@ -177,7 +183,10 @@ public sealed class GameCycle : MonoBehaviour
         {
             _mainState = GameState.FINISH;
 
-            foreach (var it in _gameListeners)
+            List<IGameListener> cache = new List<IGameListener>();
+            cache.AddRange(_gameListeners);
+
+            foreach (var it in cache)
             {
                 if (it is IGameFinishListener listener)
                 {
@@ -188,7 +197,7 @@ public sealed class GameCycle : MonoBehaviour
     }
     #endregion
 
-    
+
     #region UPDATES
     private void Update()
     {
@@ -196,6 +205,7 @@ public sealed class GameCycle : MonoBehaviour
 
         if (_mainState == GameState.PLAY)
         {
+
             foreach (IGameTickable gameTickable in _gameTickableListeners)
             {
                 gameTickable.Tick(time);
@@ -215,7 +225,16 @@ public sealed class GameCycle : MonoBehaviour
 
         if (_mainState == GameState.PLAY)
         {
-            foreach (IGameFixedTickable gameFixedTickable in _gameFixedTickableListeners)
+            /* QUESTION:
+            На сколько правильно делать такой подход (в качестве теста он реализован только здесь), если
+            При создании новых объектов в FixedUpdate они в реальном времени регистрируются в GameFixedTicakble и
+            появляется ошибка об изменении списка List во время его итерации? Можно ли это сделать удобнее или менее
+            ресурсозатратно чем тут?
+            */
+            List<IGameFixedTickable> cache = new List<IGameFixedTickable>();
+            cache.AddRange(_gameFixedTickableListeners);
+
+            foreach (IGameFixedTickable gameFixedTickable in cache)
             {
                 gameFixedTickable.FixedTick(time);
             }

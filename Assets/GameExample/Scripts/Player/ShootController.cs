@@ -2,7 +2,9 @@ using UnityEngine;
 
 namespace ShootEmUp.Player
 {
-    public sealed class ShootController : MonoBehaviour
+    public sealed class ShootController : GameMonoBehaviour,
+        IGameStartListener,
+        IGameFinishListener
     {
         [SerializeField]
         private WeaponComponent weaponComponent;
@@ -11,12 +13,12 @@ namespace ShootEmUp.Player
         private InputManager inputManager;
 
 
-        private void OnEnable()
+        void IGameStartListener.OnGameStart()
         {
             this.inputManager.OnShootInput += this.weaponComponent.Shoot;
         }
 
-        private void OnDisable()
+        void IGameFinishListener.OnGameFinish()
         {
             this.inputManager.OnShootInput -= this.weaponComponent.Shoot;
         }

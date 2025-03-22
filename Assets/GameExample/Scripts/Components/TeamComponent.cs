@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace ShootEmUp
 {
-    public sealed class TeamComponent : MonoBehaviour
+    public sealed class TeamComponent : GameMonoBehaviour
     {
         public bool IsPlayer
         {

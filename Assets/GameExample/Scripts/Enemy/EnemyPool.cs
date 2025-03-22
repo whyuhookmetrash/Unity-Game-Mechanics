@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace ShootEmUp
 {
-    public sealed class EnemyPool : MonoBehaviour
+    public sealed class EnemyPool : GameMonoBehaviour
     {
         [SerializeField]
         private Transform worldContainer;

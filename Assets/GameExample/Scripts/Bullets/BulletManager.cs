@@ -3,7 +3,8 @@ using UnityEngine;
 
 namespace ShootEmUp
 {
-    public sealed class BulletManager : MonoBehaviour
+    public sealed class BulletManager : GameMonoBehaviour,
+        IGameFixedTickable
     {
 
         [SerializeField]
@@ -11,8 +12,8 @@ namespace ShootEmUp
 
         private readonly HashSet<Bullet> activeBullets = new();
         private readonly List<Bullet> cache = new();
-        
-        private void FixedUpdate()
+
+        void IGameFixedTickable.FixedTick(float deltaTime)
         {
             this.cache.Clear();
             this.cache.AddRange(this.activeBullets);
@@ -36,6 +37,6 @@ namespace ShootEmUp
         {
             this.activeBullets.Remove(bullet);
         }
-        
+
     }
 }

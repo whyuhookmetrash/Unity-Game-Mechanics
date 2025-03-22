@@ -3,7 +3,8 @@ using UnityEngine;
 namespace ShootEmUp
 {
     [RequireComponent(typeof(Rigidbody2D))]
-    public sealed class MoveComponent : MonoBehaviour
+    public sealed class MoveComponent : GameMonoBehaviour,
+        IGameFixedTickable
     {
  
         [SerializeField]
@@ -22,10 +23,11 @@ namespace ShootEmUp
         {
             this.direction = direction;
         }
-        private void FixedUpdate()
+        void IGameFixedTickable.FixedTick(float deltaTime)
         {
             Vector2 nextPosition = this.rigidbody2D.position + direction * this.speed * Time.fixedDeltaTime;
             this.rigidbody2D.MovePosition(nextPosition);
         }
+
     }
 }

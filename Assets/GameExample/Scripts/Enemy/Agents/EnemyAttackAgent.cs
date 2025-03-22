@@ -5,7 +5,8 @@ namespace ShootEmUp
 {
     [RequireComponent(typeof(WeaponComponent))]
     [RequireComponent(typeof(EnemyMoveAgent))]
-    public sealed class EnemyAttackAgent : MonoBehaviour
+    public sealed class EnemyAttackAgent : GameMonoBehaviour,
+        IGameFixedTickable
     {
 
         private GameObject target;
@@ -15,13 +16,9 @@ namespace ShootEmUp
             this.target = target;
         }
 
-        private void FixedUpdate()
+        void IGameFixedTickable.FixedTick(float deltaTime)
         {
-            /* 
-            Ќа сколько тактично вызывать GetComponent на каждом кадре игры?
-            ≈сли не рассматривать DI, то не лучше ли было бы закешировать переменную enemyMoveAgent и weaponComponent?
-            —делать private пол€ и опрокинуть их в Awake или сделать private и закидывать через serializefield(второе кажетс€ не удобным)?
-             */
+
             if (!this.gameObject.GetComponent<EnemyMoveAgent>().IsReached)
             {
                 return;

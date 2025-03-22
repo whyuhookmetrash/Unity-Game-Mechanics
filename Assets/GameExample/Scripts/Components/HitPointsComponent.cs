@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace ShootEmUp
 {
-    public sealed class HitPointsComponent : MonoBehaviour
+    public sealed class HitPointsComponent : GameMonoBehaviour
     {
         public event Action<GameObject> OnHpEmpty;
         

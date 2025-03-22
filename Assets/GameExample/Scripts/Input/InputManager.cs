@@ -3,12 +3,13 @@ using UnityEngine;
 
 namespace ShootEmUp
 {
-    public sealed class InputManager : MonoBehaviour
+    public sealed class InputManager : GameMonoBehaviour,
+        ITickable
     {
         public event Action<Vector2> OnMoveInput;
         public event Action<Vector2> OnShootInput;
 
-        private void Update()
+        void ITickable.Tick(float deltaTime)
         {
             if (Input.GetKeyDown(KeyCode.Space))
             {
@@ -16,6 +17,15 @@ namespace ShootEmUp
             }
 
             OnMoveInput?.Invoke(new Vector2(Input.GetAxis("Horizontal"), 0));
+
+            if (Input.GetKeyDown(KeyCode.P))
+            {
+                GameCycle.Instance.PauseGame();
+            }
+            if (Input.GetKeyDown(KeyCode.R))
+            {
+                GameCycle.Instance.ResumeGame();
+            }
         }
        
     }
