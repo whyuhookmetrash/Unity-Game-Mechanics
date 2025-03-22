@@ -21,7 +21,6 @@ namespace ShootEmUp
 
         private float timeFromStart;
         private float nextSpawnTime;
-        private float lastSpawnTime;
 
         private readonly HashSet<GameObject> activeEnemies = new();
 
@@ -29,7 +28,6 @@ namespace ShootEmUp
         {
             timeFromStart = 0f;
             nextSpawnTime = spawnTime;
-            lastSpawnTime = 0f;
         }
 
         /*
@@ -51,8 +49,7 @@ namespace ShootEmUp
             if(timeFromStart > nextSpawnTime)
             {
                 var spawnCount = 1 + (int) ((timeFromStart - nextSpawnTime) / spawnTime);
-                lastSpawnTime += spawnTime * spawnCount;
-                nextSpawnTime = lastSpawnTime + spawnTime;
+                nextSpawnTime += spawnTime * spawnCount;
 
                 for (int i = 0; i < spawnCount; i++)
                 {

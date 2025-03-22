@@ -3,11 +3,15 @@
   "WorkspaceRootPath": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\assets\\gameexample\\scripts\\interface\\gamepauser\\pausebuttonhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\assets\\gameexample\\scripts\\enemy\\enemyspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|solutionrelative:assets\\gameexample\\scripts\\enemy\\enemyspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|d:\\study\\otus\\homeworks\\unity-game-mechanics\\assets\\gameexample\\scripts\\interface\\gamepauser\\pausebuttonhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|solutionrelative:assets\\gameexample\\scripts\\interface\\gamepauser\\pausebuttonhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|d:\\study\\otus\\homeworks\\unity-game-mechanics\\assets\\gameexample\\scripts\\interface\\gamepauser\\pausebuttoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\assets\\gameexample\\scripts\\interface\\gamepauser\\pausebuttoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|solutionrelative:assets\\gameexample\\scripts\\interface\\gamepauser\\pausebuttoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -53,10 +57,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\assets\\gameexample\\scripts\\interface\\gamestarter\\startbuttonhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|solutionrelative:assets\\gameexample\\scripts\\interface\\gamestarter\\startbuttonhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\assets\\gameexample\\scripts\\enemy\\enemyspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|solutionrelative:assets\\gameexample\\scripts\\enemy\\enemyspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\assets\\gameexample\\scripts\\bullets\\bulletmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -226,7 +226,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 14,
           "Children": [
             {
               "$type": "Bookmark",
@@ -234,59 +234,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PauseButtonController.cs",
-              "DocumentMoniker": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Interface\\GamePauser\\PauseButtonController.cs",
-              "RelativeDocumentMoniker": "Assets\\GameExample\\Scripts\\Interface\\GamePauser\\PauseButtonController.cs",
-              "ToolTip": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Interface\\GamePauser\\PauseButtonController.cs",
-              "RelativeToolTip": "Assets\\GameExample\\Scripts\\Interface\\GamePauser\\PauseButtonController.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T19:19:46.219Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PauseButtonHandler.cs",
-              "DocumentMoniker": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Interface\\GamePauser\\PauseButtonHandler.cs",
-              "RelativeDocumentMoniker": "Assets\\GameExample\\Scripts\\Interface\\GamePauser\\PauseButtonHandler.cs",
-              "ToolTip": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Interface\\GamePauser\\PauseButtonHandler.cs",
-              "RelativeToolTip": "Assets\\GameExample\\Scripts\\Interface\\GamePauser\\PauseButtonHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T18:55:44.539Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GameCycle.cs",
-              "DocumentMoniker": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameCycle\\Scripts\\GameCycle.cs",
-              "RelativeDocumentMoniker": "Assets\\GameCycle\\Scripts\\GameCycle.cs",
-              "ToolTip": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameCycle\\Scripts\\GameCycle.cs",
-              "RelativeToolTip": "Assets\\GameCycle\\Scripts\\GameCycle.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAG0AAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T11:47:17.225Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GameMonoBehaviour.cs",
-              "DocumentMoniker": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameCycle\\Scripts\\GameMonoBehaviour.cs",
-              "RelativeDocumentMoniker": "Assets\\GameCycle\\Scripts\\GameMonoBehaviour.cs",
-              "ToolTip": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameCycle\\Scripts\\GameMonoBehaviour.cs",
-              "RelativeToolTip": "Assets\\GameCycle\\Scripts\\GameMonoBehaviour.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T15:37:30.317Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "GameStarterModel.cs",
               "DocumentMoniker": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Interface\\GameStarter\\GameStarterModel.cs",
               "RelativeDocumentMoniker": "Assets\\GameExample\\Scripts\\Interface\\GameStarter\\GameStarterModel.cs",
@@ -294,12 +242,11 @@
               "RelativeToolTip": "Assets\\GameExample\\Scripts\\Interface\\GameStarter\\GameStarterModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T16:43:42.737Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-22T16:43:42.737Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "GameStarterView.cs",
               "DocumentMoniker": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Interface\\GameStarter\\GameStarterView.cs",
               "RelativeDocumentMoniker": "Assets\\GameExample\\Scripts\\Interface\\GameStarter\\GameStarterView.cs",
@@ -307,12 +254,11 @@
               "RelativeToolTip": "Assets\\GameExample\\Scripts\\Interface\\GameStarter\\GameStarterView.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T16:53:45.928Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-22T16:53:45.928Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "StartButtonHandler.cs",
               "DocumentMoniker": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Interface\\GameStarter\\StartButtonHandler.cs",
               "RelativeDocumentMoniker": "Assets\\GameExample\\Scripts\\Interface\\GameStarter\\StartButtonHandler.cs",
@@ -320,12 +266,11 @@
               "RelativeToolTip": "Assets\\GameExample\\Scripts\\Interface\\GameStarter\\StartButtonHandler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T16:36:03.389Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-22T16:36:03.389Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "PauseButtonView.cs",
               "DocumentMoniker": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Interface\\GamePauser\\PauseButtonView.cs",
               "RelativeDocumentMoniker": "Assets\\GameExample\\Scripts\\Interface\\GamePauser\\PauseButtonView.cs",
@@ -333,8 +278,7 @@
               "RelativeToolTip": "Assets\\GameExample\\Scripts\\Interface\\GamePauser\\PauseButtonView.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T19:03:00.765Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-22T19:03:00.765Z"
             },
             {
               "$type": "Document",
@@ -350,7 +294,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "HitPointsComponent.cs",
               "DocumentMoniker": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Components\\HitPointsComponent.cs",
               "RelativeDocumentMoniker": "Assets\\GameExample\\Scripts\\Components\\HitPointsComponent.cs",
@@ -358,12 +302,11 @@
               "RelativeToolTip": "Assets\\GameExample\\Scripts\\Components\\HitPointsComponent.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T12:19:37.793Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-22T12:19:37.793Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "EnemyFactory.cs",
               "DocumentMoniker": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Enemy\\EnemyFactory.cs",
               "RelativeDocumentMoniker": "Assets\\GameExample\\Scripts\\Enemy\\EnemyFactory.cs",
@@ -371,12 +314,11 @@
               "RelativeToolTip": "Assets\\GameExample\\Scripts\\Enemy\\EnemyFactory.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T12:34:27.426Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-22T12:34:27.426Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "WeaponComponent.cs",
               "DocumentMoniker": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Components\\WeaponComponent.cs",
               "RelativeDocumentMoniker": "Assets\\GameExample\\Scripts\\Components\\WeaponComponent.cs",
@@ -384,12 +326,11 @@
               "RelativeToolTip": "Assets\\GameExample\\Scripts\\Components\\WeaponComponent.cs",
               "ViewState": "AgIAABoAAAAAAAAAAAAxwDkAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T12:21:34.341Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-22T12:21:34.341Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "BulletFactory.cs",
               "DocumentMoniker": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Bullets\\BulletFactory.cs",
               "RelativeDocumentMoniker": "Assets\\GameExample\\Scripts\\Bullets\\BulletFactory.cs",
@@ -397,12 +338,11 @@
               "RelativeToolTip": "Assets\\GameExample\\Scripts\\Bullets\\BulletFactory.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T12:16:53.227Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-22T12:16:53.227Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Bullet.cs",
               "DocumentMoniker": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Bullets\\Bullet.cs",
               "RelativeDocumentMoniker": "Assets\\GameExample\\Scripts\\Bullets\\Bullet.cs",
@@ -410,8 +350,7 @@
               "RelativeToolTip": "Assets\\GameExample\\Scripts\\Bullets\\Bullet.cs",
               "ViewState": "AgIAADIAAAAAAAAAAAAwwC8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T12:16:06.587Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-22T12:16:06.587Z"
             },
             {
               "$type": "Document",
@@ -451,6 +390,68 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EnemySpawner.cs",
+              "DocumentMoniker": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Enemy\\EnemySpawner.cs",
+              "RelativeDocumentMoniker": "Assets\\GameExample\\Scripts\\Enemy\\EnemySpawner.cs",
+              "ToolTip": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Enemy\\EnemySpawner.cs",
+              "RelativeToolTip": "Assets\\GameExample\\Scripts\\Enemy\\EnemySpawner.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAQwD0AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T12:35:15.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GameMonoBehaviour.cs",
+              "DocumentMoniker": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameCycle\\Scripts\\GameMonoBehaviour.cs",
+              "RelativeDocumentMoniker": "Assets\\GameCycle\\Scripts\\GameMonoBehaviour.cs",
+              "ToolTip": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameCycle\\Scripts\\GameMonoBehaviour.cs",
+              "RelativeToolTip": "Assets\\GameCycle\\Scripts\\GameMonoBehaviour.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T15:37:30.317Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GameCycle.cs",
+              "DocumentMoniker": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameCycle\\Scripts\\GameCycle.cs",
+              "RelativeDocumentMoniker": "Assets\\GameCycle\\Scripts\\GameCycle.cs",
+              "ToolTip": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameCycle\\Scripts\\GameCycle.cs",
+              "RelativeToolTip": "Assets\\GameCycle\\Scripts\\GameCycle.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAG0AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T11:47:17.225Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PauseButtonHandler.cs",
+              "DocumentMoniker": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Interface\\GamePauser\\PauseButtonHandler.cs",
+              "RelativeDocumentMoniker": "Assets\\GameExample\\Scripts\\Interface\\GamePauser\\PauseButtonHandler.cs",
+              "ToolTip": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Interface\\GamePauser\\PauseButtonHandler.cs",
+              "RelativeToolTip": "Assets\\GameExample\\Scripts\\Interface\\GamePauser\\PauseButtonHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T18:55:44.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PauseButtonController.cs",
+              "DocumentMoniker": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Interface\\GamePauser\\PauseButtonController.cs",
+              "RelativeDocumentMoniker": "Assets\\GameExample\\Scripts\\Interface\\GamePauser\\PauseButtonController.cs",
+              "ToolTip": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Interface\\GamePauser\\PauseButtonController.cs",
+              "RelativeToolTip": "Assets\\GameExample\\Scripts\\Interface\\GamePauser\\PauseButtonController.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T19:19:46.219Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 20,
               "Title": "LevelBounds.cs",
               "DocumentMoniker": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Level\\LevelBounds.cs",
@@ -472,18 +473,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-22T13:33:28.228Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "EnemySpawner.cs",
-              "DocumentMoniker": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Enemy\\EnemySpawner.cs",
-              "RelativeDocumentMoniker": "Assets\\GameExample\\Scripts\\Enemy\\EnemySpawner.cs",
-              "ToolTip": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Enemy\\EnemySpawner.cs",
-              "RelativeToolTip": "Assets\\GameExample\\Scripts\\Enemy\\EnemySpawner.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAQwDYAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T12:35:15.75Z"
             },
             {
               "$type": "Document",
