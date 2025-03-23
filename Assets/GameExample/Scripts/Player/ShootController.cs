@@ -4,7 +4,9 @@ namespace ShootEmUp.Player
 {
     public sealed class ShootController : GameMonoBehaviour,
         IGameStartListener,
-        IGameFinishListener
+        IGameFinishListener,
+        IGamePauseListener,
+        IGameResumeListener
     {
         [SerializeField]
         private WeaponComponent weaponComponent;
@@ -21,6 +23,16 @@ namespace ShootEmUp.Player
         void IGameFinishListener.OnGameFinish()
         {
             this.inputManager.OnShootInput -= this.weaponComponent.Shoot;
+        }
+
+        void IGamePauseListener.OnGamePause()
+        {
+            this.inputManager.OnShootInput -= this.weaponComponent.Shoot;
+        }
+
+        void IGameResumeListener.OnGameResume()
+        {
+            this.inputManager.OnShootInput += this.weaponComponent.Shoot;
         }
 
     }

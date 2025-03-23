@@ -3,10 +3,7 @@ using UnityEngine;
 
 namespace ShootEmUp
 {
-    public sealed class Bullet : GameMonoBehaviour,
-        IGamePauseListener,
-        IGameResumeListener,
-        IGameFinishListener
+    public sealed class Bullet : GameMonoBehaviour
     {
         public event Action<Bullet> OnBulletDestroy;
 
@@ -22,8 +19,6 @@ namespace ShootEmUp
         [SerializeField]
         private SpriteRenderer spriteRenderer;
 
-        private Vector2 velocity;
-
         private void OnCollisionEnter2D(Collision2D collision)
         {
             BulletUtils.DealDamage(this, collision.gameObject);
@@ -32,33 +27,11 @@ namespace ShootEmUp
         /* QUESTION:
         Полагаю, в таком случае лучше сделать rigidBody2D.MovePosition и обработать все в IGameFixedTickable,
         как это сделано в MoveComponent, чем работать через linearVelocity и цеплять IGamePause, IGameResume, IGameFinish?
-        или как тут будет сделать правильнее
+        или как тут будет сделать правильнее (см. RigidBody2DController.cs)
         */
         public void SetVelocity(Vector2 velocity)
         {
-            this.velocity = velocity;
-
-            if (GameCycle.Instance.MainState != GameState.PLAY)
-            {
-                return;
-            }
-
             this.rigidbody2D.linearVelocity = velocity;
-        }
-
-        void IGamePauseListener.OnGamePause()
-        {
-            this.rigidbody2D.linearVelocity = Vector2.zero;
-        }
-
-        void IGameResumeListener.OnGameResume()
-        {
-            this.rigidbody2D.linearVelocity = this.velocity;
-        }
-
-        void IGameFinishListener.OnGameFinish()
-        {
-            this.rigidbody2D.linearVelocity = Vector2.zero;
         }
 
         public void SetPhysicsLayer(int physicsLayer)
