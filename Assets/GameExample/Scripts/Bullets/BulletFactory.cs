@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 namespace ShootEmUp
@@ -7,9 +8,7 @@ namespace ShootEmUp
         [SerializeField]
         private BulletPool bulletPool;
 
-        [SerializeField]
-        private BulletManager bulletManager;
-
+        public event Action<Bullet> OnBulletCreate;
 
         public Bullet CreateBulletByArgs(Args args)
         {
@@ -22,21 +21,9 @@ namespace ShootEmUp
             bullet.isPlayer = args.isPlayer;
             bullet.SetVelocity(args.velocity);
 
-            bullet.OnBulletDestroy += bulletPool.DestroyBullet;
-
-            bulletManager.AddActiveBullet(bullet);
-            bullet.OnBulletDestroy += bulletManager.RemoveActiveBullet;
-
-            bullet.OnBulletDestroy += this.OnBulletDestroy;
+            this.OnBulletCreate?.Invoke(bullet);
 
             return bullet;
-        }
-
-        private void OnBulletDestroy(Bullet bullet)
-        {
-            bullet.OnBulletDestroy -= bulletPool.DestroyBullet;
-            bullet.OnBulletDestroy -= bulletManager.RemoveActiveBullet;
-            bullet.OnBulletDestroy -= this.OnBulletDestroy;
         }
 
         public struct Args
@@ -48,9 +35,5 @@ namespace ShootEmUp
             public int damage;
             public bool isPlayer;
         }
-
-
     }
-
-
 }

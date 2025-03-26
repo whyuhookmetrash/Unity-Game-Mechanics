@@ -22,6 +22,7 @@ namespace ShootEmUp
             gameStarterView.Active(true);
             StartCoroutine(StartGameEnumerator());
         }
+
         private IEnumerator StartGameEnumerator()
         {
             gameStarterView.SetText("3");
@@ -38,7 +39,5 @@ namespace ShootEmUp
         {
             this.startButton.OnButtonClick -= this.StartGame;
         }
-
     }
-
 }

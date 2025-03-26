@@ -14,7 +14,6 @@ namespace ShootEmUp.Player
         [SerializeField]
         private InputManager inputManager;
 
-
         void IGameStartListener.OnGameStart()
         {
             this.inputManager.OnShootInput += this.weaponComponent.Shoot;
@@ -34,6 +33,5 @@ namespace ShootEmUp.Player
         {
             this.inputManager.OnShootInput += this.weaponComponent.Shoot;
         }
-
     }
 }

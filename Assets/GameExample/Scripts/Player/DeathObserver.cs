@@ -9,7 +9,6 @@ namespace ShootEmUp.Player
         [SerializeField]
         private HitPointsComponent hitPointsComponent;
 
-
         void IGameStartListener.OnGameStart()
         {
             this.hitPointsComponent.OnHpEmpty += this.OnPlayerDeath;
@@ -21,6 +20,5 @@ namespace ShootEmUp.Player
         }
 
         private void OnPlayerDeath(GameObject _) => GameCycle.Instance.FinishGame();
-
     }
 }

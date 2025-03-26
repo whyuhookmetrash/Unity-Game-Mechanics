@@ -13,11 +13,10 @@ namespace ShootEmUp
         {
             this.gameObject.SetActive(active);
         } 
+
         public void SetText(String text)
         {
             textMeshPro.text = text;
         }
-
     }
-
 }

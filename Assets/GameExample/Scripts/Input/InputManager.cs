@@ -17,16 +17,6 @@ namespace ShootEmUp
             }
 
             OnMoveInput?.Invoke(new Vector2(Input.GetAxis("Horizontal"), 0));
-
-            if (Input.GetKeyDown(KeyCode.P))
-            {
-                GameCycle.Instance.PauseGame();
-            }
-            if (Input.GetKeyDown(KeyCode.R))
-            {
-                GameCycle.Instance.ResumeGame();
-            }
         }
-       
     }
 }

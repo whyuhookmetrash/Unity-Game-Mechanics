@@ -8,8 +8,16 @@ namespace ShootEmUp
     public sealed class EnemyAttackAgent : GameMonoBehaviour,
         IGameFixedTickable
     {
-
         private GameObject target;
+
+        private WeaponComponent weaponComponent;
+        private EnemyMoveAgent enemyMoveAgent;
+
+        private void Awake()
+        {
+            this.weaponComponent = this.gameObject.GetComponent<WeaponComponent>();
+            this.enemyMoveAgent = this.gameObject.GetComponent<EnemyMoveAgent>();
+        }
 
         public void SetTarget(GameObject target)
         {
@@ -18,13 +26,12 @@ namespace ShootEmUp
 
         void IGameFixedTickable.FixedTick(float deltaTime)
         {
-
-            if (!this.gameObject.GetComponent<EnemyMoveAgent>().IsReached)
+            if (!enemyMoveAgent.IsReached)
             {
                 return;
             }
 
-            if (!this.gameObject.GetComponent<WeaponComponent>().canShoot)
+            if (!weaponComponent.canShoot)
             {
                 return;
             }
@@ -34,10 +41,9 @@ namespace ShootEmUp
 
         private void Shoot()
         {
-            WeaponComponent weaponComponent = this.gameObject.GetComponent<WeaponComponent>();
-            Vector2 startPosition = weaponComponent.firePosition;
+            Vector2 startPosition = this.weaponComponent.firePosition;
             Vector2 direction = ((Vector2) this.target.transform.position - startPosition).normalized;
-            weaponComponent.Shoot(direction);
+            this.weaponComponent.Shoot(direction);
         }
     }
 }

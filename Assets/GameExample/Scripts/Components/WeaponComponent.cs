@@ -20,6 +20,8 @@ namespace ShootEmUp
 
         private float rechargeCurrentTime;
 
+        private TeamComponent teamComponent;
+
         [HideInInspector]
         public bool canShoot;
 
@@ -28,7 +30,8 @@ namespace ShootEmUp
 
         private void Awake()
         {
-            bulletFactory = FindAnyObjectByType<BulletFactory>();
+            this.bulletFactory = FindAnyObjectByType<BulletFactory>();
+            this.teamComponent = this.gameObject.GetComponent<TeamComponent>();
         }
 
         void IGameFixedTickable.FixedTick(float deltaTime)
@@ -52,7 +55,7 @@ namespace ShootEmUp
             shootDirection = shootDirection.normalized;
             this.bulletFactory.CreateBulletByArgs(new BulletFactory.Args
             {
-                isPlayer = this.gameObject.GetComponent<TeamComponent>().IsPlayer,
+                isPlayer = this.teamComponent.IsPlayer,
                 physicsLayer = (int)this.bulletConfig.physicsLayer,
                 color = this.bulletConfig.color,
                 damage = this.bulletConfig.damage,
@@ -60,6 +63,5 @@ namespace ShootEmUp
                 velocity = this.bulletConfig.speed * shootDirection
             });
         }
-
     }
 }

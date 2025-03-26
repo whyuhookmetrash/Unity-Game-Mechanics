@@ -20,8 +20,5 @@ namespace ShootEmUp
         {
             pauseButtonHandler.gameObject.SetActive(false);
         }
-
-
     }
-
 }

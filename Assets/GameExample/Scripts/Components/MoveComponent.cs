@@ -4,15 +4,14 @@ namespace ShootEmUp
 {
     [RequireComponent(typeof(Rigidbody2D))]
     public sealed class MoveComponent : GameMonoBehaviour
-        //,IGameFixedTickable
+        ,IGameFixedTickable
     {
- 
         [SerializeField]
         private float speed = 5.0f;
 
         private Rigidbody2D rigidBody;
 
-        //private Vector2 direction = Vector2.zero;
+        private Vector2 direction = Vector2.zero;
 
         private void Awake()
         {
@@ -21,17 +20,14 @@ namespace ShootEmUp
 
         public void ChangeDirection(Vector2 direction)
         {
-            //this.direction = direction;
-            this.rigidBody.linearVelocity = direction * this.speed;
+            this.direction = direction;
+            //this.rigidBody.linearVelocity = direction * this.speed;
         }
 
-        /*
         void IGameFixedTickable.FixedTick(float deltaTime)
         {
-            Vector2 nextPosition = this.rigidbody2D.position + direction * this.speed * Time.fixedDeltaTime;
-            this.rigidbody2D.MovePosition(nextPosition);
+            Vector2 nextPosition = this.rigidBody.position + direction * (this.speed * Time.fixedDeltaTime);
+            this.rigidBody.MovePosition(nextPosition);
         }
-        */
-
     }
 }

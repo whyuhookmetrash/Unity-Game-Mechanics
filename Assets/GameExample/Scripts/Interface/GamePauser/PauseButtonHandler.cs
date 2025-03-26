@@ -1,5 +1,4 @@
 using System;
-using TMPro;
 using UnityEngine;
 
 namespace ShootEmUp
@@ -12,6 +11,7 @@ namespace ShootEmUp
         private PauseButtonView pauseButtonView;
 
         public event Action OnButtonClick;
+
         public void OnClick()
         {
             OnButtonClick?.Invoke();
@@ -34,7 +34,5 @@ namespace ShootEmUp
         {
             pauseButtonView.SetText("Pause");
         }
-
     }
-
 }

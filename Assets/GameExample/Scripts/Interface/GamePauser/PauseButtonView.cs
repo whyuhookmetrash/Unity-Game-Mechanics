@@ -6,7 +6,6 @@ namespace ShootEmUp
 {
     public sealed class PauseButtonView : GameMonoBehaviour
     {
-
         [SerializeField]
         private TMP_Text buttonText;
 
@@ -14,7 +13,5 @@ namespace ShootEmUp
         {
             this.buttonText.text = text;
         }
-
     }
-
 }

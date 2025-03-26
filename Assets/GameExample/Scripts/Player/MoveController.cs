@@ -21,6 +21,5 @@ namespace ShootEmUp.Player
         {
             this.inputManager.OnMoveInput -= this.moveComponent.ChangeDirection;
         }
-
     }
 }

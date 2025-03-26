@@ -22,8 +22,6 @@ namespace ShootEmUp
         private float timeFromStart;
         private float nextSpawnTime;
 
-        private readonly HashSet<GameObject> activeEnemies = new();
-
         private void Awake()
         {
             timeFromStart = 0f;
@@ -56,30 +54,17 @@ namespace ShootEmUp
                     this.SpawnEnemy();
                 }
             }
-
         }
 
         private void SpawnEnemy()
         {
             var spawnPosition = this.enemyPositions.RandomSpawnPosition();
             var attackPosition = this.enemyPositions.RandomAttackPosition();
-            GameObject enemy = this.enemyFactory.CreateEnemyByArgs(spawnPosition, attackPosition, this.shootTarget);
-            if (enemy != null)
+            GameObject enemy;
+            if (this.enemyFactory.TryCreateEnemyByArgs(spawnPosition, attackPosition, this.shootTarget, out enemy))
             {
-                if (this.activeEnemies.Add(enemy))
-                {
-                    enemy.GetComponent<HitPointsComponent>().OnHpEmpty += this.OnEnemyDestroyed;
-                }
+                //AddToActiveEnemies(enemy); //Я его убрал т.к. он пока нигде не используется
             }
         }
-
-        private void OnEnemyDestroyed(GameObject enemy)
-        {
-            if (activeEnemies.Remove(enemy))
-            {
-                enemy.GetComponent<HitPointsComponent>().OnHpEmpty -= this.OnEnemyDestroyed;
-            }
-        }
-
     }
 }

@@ -1,6 +1,4 @@
-
 public interface ITickableListener { } //Marker
-
 
 #region SYSTEM
 public interface ITickable : ITickableListener
@@ -18,7 +16,6 @@ public interface ILateTickable : ITickableListener
     void LateTick(float deltaTime);
 }
 #endregion
-
 
 #region GAME
 public interface IGameTickable : ITickableListener

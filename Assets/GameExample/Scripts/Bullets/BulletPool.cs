@@ -5,8 +5,7 @@ namespace ShootEmUp
 {
     public sealed class BulletPool : GameMonoBehaviour
     {
-        [SerializeField]
-        private int initialCount = 50;
+        private const int INITIAL_COUNT = 50;
 
         [SerializeField] 
         private Transform worldContainer;
@@ -21,7 +20,7 @@ namespace ShootEmUp
 
         private void Awake()
         {
-            for (var i = 0; i < this.initialCount; i++)
+            for (var i = 0; i < INITIAL_COUNT; i++)
             {
                 var bullet = Instantiate(this.bulletPrefab, this.poolContainer);
                 this.bulletPool.Enqueue(bullet);
@@ -39,16 +38,16 @@ namespace ShootEmUp
                 bullet = Instantiate(this.bulletPrefab, this.worldContainer);
             }
 
+            bullet.OnBulletDestroy += this.DestroyBullet;
+
             return bullet;
         }
 
-
         public void DestroyBullet(Bullet bullet)
         {
+            bullet.OnBulletDestroy -= this.DestroyBullet;
             bullet.transform.SetParent(this.poolContainer);
             this.bulletPool.Enqueue(bullet);
         }
-
     }
-
 }

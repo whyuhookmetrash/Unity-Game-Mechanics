@@ -1,8 +1,4 @@
-
-using NUnit.Framework;
-using ShootEmUp;
 using System.Collections.Generic;
-using System.Runtime.InteropServices.WindowsRuntime;
 using UnityEngine;
 
 public sealed class GameCycle : MonoBehaviour
@@ -13,26 +9,25 @@ public sealed class GameCycle : MonoBehaviour
     public GameState MainState { get { return _mainState; } }
 
     #region INIT LISTENERS
-    private List<IGameListener> _gameListeners = new();
+    private readonly List<IGameListener> _gameListeners = new();
 
-    private List<ITickable> _tickableListeners = new();
-    private List<IFixedTickable> _fixedTickableListeners = new();
-    private List<ILateTickable> _lateTickableListeners = new();
+    private readonly List<ITickable> _tickableListeners = new();
+    private readonly List<IFixedTickable> _fixedTickableListeners = new();
+    private readonly List<ILateTickable> _lateTickableListeners = new();
 
-    private List<IGameTickable> _gameTickableListeners = new();
-    private List<IGameFixedTickable> _gameFixedTickableListeners = new();
-    private List<IGameLateTickable> _gameLateTickableListeners = new();
-
+    private readonly List<IGameTickable> _gameTickableListeners = new();
+    private readonly List<IGameFixedTickable> _gameFixedTickableListeners = new();
+    private readonly List<IGameLateTickable> _gameLateTickableListeners = new();
     #endregion
 
     public static GameCycle Instance { get; private set; }
+
     private void Awake()
     {
         if (Instance == null) { Instance = this; DontDestroyOnLoad(gameObject); }
         else { Destroy(gameObject); }
         _mainState = GameState.OFF;
     }
-
 
     #region ADD AND REMOVE LISTENERS
     public void AddListener(IGameListener listener)
@@ -72,7 +67,6 @@ public sealed class GameCycle : MonoBehaviour
         {
             _lateTickableListeners.Add(lateTickableListener);
         }
-
     }
 
     public void RemoveTickableListener(ITickableListener listener)
@@ -102,10 +96,8 @@ public sealed class GameCycle : MonoBehaviour
         {
             _lateTickableListeners.Remove(lateTickableListener);
         }
-
     }
     #endregion
-
 
     #region GAME
     /// <summary>
@@ -131,7 +123,6 @@ public sealed class GameCycle : MonoBehaviour
             }
         }
     }
-
     /// <summary>
     /// Когда во время игрового процесса нужно вызвать паузу.
     /// Состояние = PAUSE;
@@ -197,7 +188,6 @@ public sealed class GameCycle : MonoBehaviour
     }
     #endregion
 
-
     #region UPDATES
     private void Update()
     {
@@ -216,7 +206,6 @@ public sealed class GameCycle : MonoBehaviour
         {
             tickable.Tick(time);
         }
-
     }
 
     private void FixedUpdate()
@@ -264,5 +253,4 @@ public sealed class GameCycle : MonoBehaviour
         }
     }
     #endregion
-
 }

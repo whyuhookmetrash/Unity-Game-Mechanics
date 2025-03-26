@@ -4,7 +4,7 @@ using UnityEngine;
 namespace ShootEmUp
 {
     public sealed class LevelBackground : GameMonoBehaviour,
-        IFixedTickable
+        IGameFixedTickable
     {
         private float startPositionY;
 
@@ -19,20 +19,20 @@ namespace ShootEmUp
         private Transform myTransform;
 
         [SerializeField]
-        private Params m_params;
+        private BackgroundParams backgroundParams;
 
         private void Awake()
         {
-            this.startPositionY = this.m_params.m_startPositionY;
-            this.endPositionY = this.m_params.m_endPositionY;
-            this.movingSpeedY = this.m_params.m_movingSpeedY;
+            this.startPositionY = this.backgroundParams.startPositionY;
+            this.endPositionY = this.backgroundParams.endPositionY;
+            this.movingSpeedY = this.backgroundParams.movingSpeedY;
             this.myTransform = this.transform;
             var position = this.myTransform.position;
             this.positionX = position.x;
             this.positionZ = position.z;
         }
 
-        void IFixedTickable.FixedTick(float deltaTime)
+        void IGameFixedTickable.FixedTick(float deltaTime)
         {
             if (this.myTransform.position.y <= this.endPositionY)
             {
@@ -51,16 +51,13 @@ namespace ShootEmUp
         }
 
         [Serializable]
-        public sealed class Params
+        public sealed class BackgroundParams
         {
-            [SerializeField]
-            public float m_startPositionY;
+            public float startPositionY;
 
-            [SerializeField]
-            public float m_endPositionY;
+            public float endPositionY;
 
-            [SerializeField]
-            public float m_movingSpeedY;
+            public float movingSpeedY;
         }
     }
 }
