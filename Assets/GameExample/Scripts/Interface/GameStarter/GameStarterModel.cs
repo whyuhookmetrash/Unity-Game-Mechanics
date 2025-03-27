@@ -1,18 +1,29 @@
 
+using System;
 using System.Collections;
 using UnityEngine;
+using Zenject;
 
 namespace ShootEmUp
 {
-    public sealed class GameStarterModel : GameMonoBehaviour
+    public sealed class GameStarterModel :
+        IInitializable,
+        IDisposable
     {
-        [SerializeField]
-        private StartButtonHandler startButton;
+        private const int START_TIMER = 3;
 
-        [SerializeField]
-        private GameStarterView gameStarterView;
+        private readonly StartButtonHandler startButton;
+        private readonly GameStarterView gameStarterView;
+        private readonly Timer timer;
 
-        private void Awake()
+        public GameStarterModel(StartButtonHandler startButton, GameStarterView gameStarterView, Timer timer)
+        {
+            this.startButton = startButton;
+            this.gameStarterView = gameStarterView;
+            this.timer = timer;
+        }
+
+        void IInitializable.Initialize()
         {
             this.startButton.OnButtonClick += this.StartGame;
         }
@@ -20,22 +31,25 @@ namespace ShootEmUp
         private void StartGame()
         {
             gameStarterView.Active(true);
-            StartCoroutine(StartGameEnumerator());
+            this.timer.StartTimer(START_TIMER);
+            this.timer.OnSecondPass += this.ChangeSecondText;
+            this.timer.OnTimerPass += this.RunGame;
         }
 
-        private IEnumerator StartGameEnumerator()
+        private void ChangeSecondText(int currentSecond)
         {
-            gameStarterView.SetText("3");
-            yield return new WaitForSeconds(1);
-            gameStarterView.SetText("2");
-            yield return new WaitForSeconds(1);
-            gameStarterView.SetText("1");
-            yield return new WaitForSeconds(1);
+            int second = START_TIMER - currentSecond;
+            gameStarterView.SetText(second.ToString());
+        }
+        private void RunGame()
+        {
+            this.timer.OnSecondPass -= this.ChangeSecondText;
+            this.timer.OnTimerPass -= this.RunGame;
             GameCycle.Instance.StartGame();
             gameStarterView.Active(false);
         }
 
-        private void OnDestroy()
+        void IDisposable.Dispose()
         {
             this.startButton.OnButtonClick -= this.StartGame;
         }

@@ -1,13 +1,20 @@
 using System;
 using TMPro;
 using UnityEngine;
+using Zenject;
 
 namespace ShootEmUp
 {
-    public sealed class PauseButtonView : GameMonoBehaviour
+    [RequireComponent(typeof(TMP_Text))]
+    public sealed class PauseButtonView : MonoBehaviour,
+        IInitializable
     {
-        [SerializeField]
         private TMP_Text buttonText;
+
+        void IInitializable.Initialize()
+        {
+            this.buttonText = this.gameObject.GetComponent<TMP_Text>();
+        }
 
         public void SetText(String text)
         {

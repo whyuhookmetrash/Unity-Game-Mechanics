@@ -4,12 +4,16 @@ using UnityEngine;
 
 namespace ShootEmUp
 {
-    public sealed class PauseButtonController : GameMonoBehaviour,
+    public sealed class PauseButtonController :
         IGameStartListener,
         IGameFinishListener
     {
-        [SerializeField]
-        private PauseButtonView pauseButtonHandler;
+        private readonly PauseButtonHandler pauseButtonHandler;
+
+        public PauseButtonController(PauseButtonHandler pauseButtonHandler)
+        {
+            this.pauseButtonHandler = pauseButtonHandler;
+        }
 
         void IGameStartListener.OnGameStart()
         {

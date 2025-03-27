@@ -1,13 +1,14 @@
 using System;
 using UnityEngine;
+using Zenject;
 
 namespace ShootEmUp
 {
-    public sealed class PauseButtonHandler : GameMonoBehaviour,
+    public sealed class PauseButtonHandler : MonoBehaviour,
         IGamePauseListener,
         IGameResumeListener
     {
-        [SerializeField]
+        [Inject]
         private PauseButtonView pauseButtonView;
 
         public event Action OnButtonClick;

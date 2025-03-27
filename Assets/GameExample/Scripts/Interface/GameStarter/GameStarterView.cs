@@ -1,14 +1,21 @@
 using System;
 using TMPro;
 using UnityEngine;
+using Zenject;
 
 namespace ShootEmUp
 {
-    public sealed class GameStarterView : GameMonoBehaviour
+    [RequireComponent(typeof(TMP_Text))]
+    public sealed class GameStarterView : MonoBehaviour,
+        IInitializable
     {
-        [SerializeField]
         private TMP_Text textMeshPro;
-        
+
+        void IInitializable.Initialize()
+        {
+            this.textMeshPro = this.gameObject.GetComponent<TMP_Text>();
+        }
+
         public void Active(bool active)
         {
             this.gameObject.SetActive(active);
@@ -16,7 +23,7 @@ namespace ShootEmUp
 
         public void SetText(String text)
         {
-            textMeshPro.text = text;
+            this.textMeshPro.text = text;
         }
     }
 }
