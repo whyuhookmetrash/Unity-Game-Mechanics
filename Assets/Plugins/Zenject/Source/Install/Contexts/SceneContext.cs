@@ -50,6 +50,9 @@ namespace Zenject
         bool _hasInstalled;
         bool _hasResolved;
 
+        [SerializeField]
+        private MonoKernel _kernel;
+
         public override DiContainer Container
         {
             get { return _container; }
@@ -324,8 +327,15 @@ namespace Zenject
 
             InstallSceneBindings(injectableMonoBehaviours);
 
-            _container.Bind(typeof(SceneKernel), typeof(MonoKernel))
-                .To<SceneKernel>().FromNewComponentOn(gameObject).AsSingle().NonLazy();
+            if (_kernel == null)
+            {
+                _container.Bind(typeof(SceneKernel), typeof(MonoKernel))
+                    .To<SceneKernel>().FromNewComponentOn(gameObject).AsSingle().NonLazy();
+            }
+            else
+            {
+                _container.Bind<MonoKernel>().FromInstance(_kernel).AsSingle().NonLazy();
+            }
 
             _container.Bind<ZenjectSceneLoader>().AsSingle();
 

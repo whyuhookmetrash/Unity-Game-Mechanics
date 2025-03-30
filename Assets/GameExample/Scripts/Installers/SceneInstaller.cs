@@ -38,12 +38,12 @@ namespace ShootEmUp
 
         private void BindLevelSystem()
         {
-            Container
+            this.Container
                 .Bind<LevelBounds>()
                 .AsSingle()
                 .WithArguments(levelBoundsConfig);
 
-            Container
+            this.Container
                 .BindInterfacesTo<LevelBackground>()
                 .AsSingle()
                 .WithArguments(backgroundConfig);
@@ -51,21 +51,21 @@ namespace ShootEmUp
 
         private void BindEnemySystem()
         {
-            Container
+            this.Container
                 .Bind<EnemyPositions>()
                 .AsSingle()
                 .WithArguments(enemyPositionsConfig);
 
-            Container
+            this.Container
                 .BindInterfacesAndSelfTo<EnemyPool>()
                 .AsSingle()
                 .WithArguments(enemyPoolConfig);
 
-            Container
+            this.Container
                .Bind<EnemyFactory>()
                .AsSingle();
 
-            Container
+            this.Container
                 .BindInterfacesTo<EnemySpawner>()
                 .AsSingle()
                 .WithArguments(enemySpawnerConfig);
@@ -73,43 +73,47 @@ namespace ShootEmUp
 
         private void BindBulletSystem()
         {
-            Container
+            this.Container
                 .BindInterfacesAndSelfTo<BulletPool>()
                 .AsSingle()
                 .WithArguments(bulletPoolConfig);
 
-            Container
+            this.Container
                 .Bind<BulletFactory>()
                 .AsSingle();
 
-            Container
+            this.Container
                 .BindInterfacesTo<BulletManager>()
                 .AsSingle();
         }
 
         private void BindUserInterface()
         {
-            Container
+            this.Container
                 .Bind<StartButtonHandler>()
+                .FromComponentInHierarchy()
                 .AsSingle();
 
-            Container
+            this.Container
                 .BindInterfacesAndSelfTo<GameStarterView>()
+                .FromComponentInHierarchy()
                 .AsSingle();
 
-            Container
+            this.Container
                 .BindInterfacesTo<GameStarterModel>()
                 .AsSingle();
 
-            Container
+            this.Container
                 .BindInterfacesAndSelfTo<PauseButtonView>()
+                .FromComponentInHierarchy()
                 .AsSingle();
 
-            Container
+            this.Container
                 .BindInterfacesAndSelfTo<PauseButtonHandler>()
+                .FromComponentInHierarchy()
                 .AsSingle();
 
-            Container
+            this.Container
                 .BindInterfacesTo<PauseButtonController>()
                 .AsSingle();
         }

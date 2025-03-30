@@ -3,68 +3,16 @@
   "WorkspaceRootPath": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|d:\\study\\otus\\homeworks\\unity-game-mechanics\\assets\\gameexample\\scripts\\systems\\common\\timer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|solutionrelative:assets\\gameexample\\scripts\\systems\\common\\timer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\assets\\gameexample\\scripts\\systems\\bullet\\bulletfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|solutionrelative:assets\\gameexample\\scripts\\systems\\bullet\\bulletfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\assets\\gameexample\\scripts\\systems\\bullet\\bulletmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|solutionrelative:assets\\gameexample\\scripts\\systems\\bullet\\bulletmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\assets\\gameexample\\scripts\\systems\\bullet\\bulletpool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|solutionrelative:assets\\gameexample\\scripts\\systems\\bullet\\bulletpool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\assets\\gameexample\\scripts\\installers\\sceneinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|solutionrelative:assets\\gameexample\\scripts\\installers\\sceneinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|d:\\study\\otus\\homeworks\\unity-game-mechanics\\assets\\gameexample\\scripts\\interface\\gamepauser\\pausebuttonhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|solutionrelative:assets\\gameexample\\scripts\\interface\\gamepauser\\pausebuttonhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|d:\\study\\otus\\homeworks\\unity-game-mechanics\\assets\\gameexample\\scripts\\interface\\gamepauser\\pausebuttonview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|solutionrelative:assets\\gameexample\\scripts\\interface\\gamepauser\\pausebuttonview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|d:\\study\\otus\\homeworks\\unity-game-mechanics\\assets\\gameexample\\scripts\\interface\\gamepauser\\pausebuttoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|solutionrelative:assets\\gameexample\\scripts\\interface\\gamepauser\\pausebuttoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\assets\\gameexample\\scripts\\interface\\gamestarter\\gamestartermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|solutionrelative:assets\\gameexample\\scripts\\interface\\gamestarter\\gamestartermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\assets\\gameexample\\scripts\\interface\\gamestarter\\startbuttonhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|solutionrelative:assets\\gameexample\\scripts\\interface\\gamestarter\\startbuttonhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\assets\\gameexample\\scripts\\interface\\gamestarter\\gamestarterview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|solutionrelative:assets\\gameexample\\scripts\\interface\\gamestarter\\gamestarterview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\assets\\gameexample\\scripts\\installers\\scenesysteminstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|solutionrelative:assets\\gameexample\\scripts\\installers\\scenesysteminstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\assets\\gameexample\\scripts\\objects\\bullet\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|solutionrelative:assets\\gameexample\\scripts\\objects\\bullet\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\assets\\gameexample\\scripts\\installers\\componentsinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|solutionrelative:assets\\gameexample\\scripts\\installers\\componentsinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\assets\\gameexample\\scripts\\installers\\enemysysteminstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|solutionrelative:assets\\gameexample\\scripts\\installers\\enemysysteminstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\assets\\gameexample\\scripts\\installers\\playersysteminstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|solutionrelative:assets\\gameexample\\scripts\\installers\\playersysteminstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\assets\\gameexample\\scripts\\objects\\components\\weaponcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|solutionrelative:assets\\gameexample\\scripts\\objects\\components\\weaponcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\assets\\gameexample\\scripts\\systems\\bullet\\bulletfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|solutionrelative:assets\\gameexample\\scripts\\systems\\bullet\\bulletfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\assets\\gameexample\\scripts\\objects\\components\\movecomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -75,44 +23,148 @@
       "RelativeMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|solutionrelative:assets\\gameexample\\scripts\\objects\\components\\hitpointscomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\assets\\gameexample\\scripts\\objects\\components\\teamcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|solutionrelative:assets\\gameexample\\scripts\\objects\\components\\teamcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\assets\\gameexample\\scripts\\installers\\scenesysteminstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|solutionrelative:assets\\gameexample\\scripts\\installers\\scenesysteminstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\assets\\gameexample\\scripts\\systems\\enemy\\enemyfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|solutionrelative:assets\\gameexample\\scripts\\systems\\enemy\\enemyfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\assets\\gameexample\\scripts\\installers\\sceneinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|solutionrelative:assets\\gameexample\\scripts\\installers\\sceneinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\assets\\gameexample\\scripts\\systems\\bullet\\bulletmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|solutionrelative:assets\\gameexample\\scripts\\systems\\bullet\\bulletmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\assets\\gameexample\\scripts\\installers\\enemysysteminstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|solutionrelative:assets\\gameexample\\scripts\\installers\\enemysysteminstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\assets\\gameexample\\scripts\\systems\\enemy\\agents\\enemymoveagent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|solutionrelative:assets\\gameexample\\scripts\\systems\\enemy\\agents\\enemymoveagent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\assets\\gameexample\\scripts\\installers\\playersysteminstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|solutionrelative:assets\\gameexample\\scripts\\installers\\playersysteminstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\assets\\gamecycle\\scripts\\gamecycle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|solutionrelative:assets\\gamecycle\\scripts\\gamecycle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\assets\\gamecycle\\scripts\\gamekernel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|solutionrelative:assets\\gamecycle\\scripts\\gamekernel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\assets\\gamecycle\\scripts\\itickablelisteners.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|solutionrelative:assets\\gamecycle\\scripts\\itickablelisteners.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\assets\\gameexample\\scripts\\systems\\enemy\\enemypool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|solutionrelative:assets\\gameexample\\scripts\\systems\\enemy\\enemypool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\assets\\gameexample\\scripts\\systems\\common\\rigidbody2dcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|solutionrelative:assets\\gameexample\\scripts\\systems\\common\\rigidbody2dcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\assets\\gameexample\\scripts\\systems\\enemy\\enemypositions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|solutionrelative:assets\\gameexample\\scripts\\systems\\enemy\\enemypositions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\assets\\gameexample\\scripts\\systems\\enemy\\agents\\enemymoveagent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|solutionrelative:assets\\gameexample\\scripts\\systems\\enemy\\agents\\enemymoveagent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\assets\\gameexample\\scripts\\systems\\player\\movecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|solutionrelative:assets\\gameexample\\scripts\\systems\\player\\movecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\assets\\gameexample\\scripts\\systems\\player\\deathobserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|solutionrelative:assets\\gameexample\\scripts\\systems\\player\\deathobserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\assets\\gameexample\\scripts\\installers\\componentsinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|solutionrelative:assets\\gameexample\\scripts\\installers\\componentsinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|d:\\study\\otus\\homeworks\\unity-game-mechanics\\assets\\gameexample\\scripts\\objects\\enemyconstructor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|solutionrelative:assets\\gameexample\\scripts\\objects\\enemyconstructor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\assets\\gameexample\\scripts\\objects\\components\\weaponcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|solutionrelative:assets\\gameexample\\scripts\\objects\\components\\weaponcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\assets\\gameexample\\scripts\\objects\\bullet\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|solutionrelative:assets\\gameexample\\scripts\\objects\\bullet\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\assets\\gamecycle\\debug\\gamecycledebug.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|solutionrelative:assets\\gamecycle\\debug\\gamecycledebug.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\assets\\gameexample\\scripts\\systems\\enemy\\agents\\enemyattackagent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|solutionrelative:assets\\gameexample\\scripts\\systems\\enemy\\agents\\enemyattackagent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\assets\\gameexample\\scripts\\systems\\enemy\\enemyfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|solutionrelative:assets\\gameexample\\scripts\\systems\\enemy\\enemyfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\assets\\gameexample\\scripts\\systems\\enemy\\enemyspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|solutionrelative:assets\\gameexample\\scripts\\systems\\enemy\\enemyspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\assets\\gameexample\\scripts\\systems\\enemy\\enemypositions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|solutionrelative:assets\\gameexample\\scripts\\systems\\enemy\\enemypositions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\assets\\gameexample\\scripts\\interface\\gamestarter\\gamestartermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|solutionrelative:assets\\gameexample\\scripts\\interface\\gamestarter\\gamestartermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\assets\\gameexample\\scripts\\interface\\gamestarter\\gamestarterview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|solutionrelative:assets\\gameexample\\scripts\\interface\\gamestarter\\gamestarterview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\assets\\gameexample\\scripts\\interface\\gamestarter\\startbuttonhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|solutionrelative:assets\\gameexample\\scripts\\interface\\gamestarter\\startbuttonhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\assets\\gameexample\\scripts\\interface\\gamepauser\\pausebuttonview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|solutionrelative:assets\\gameexample\\scripts\\interface\\gamepauser\\pausebuttonview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\assets\\gameexample\\scripts\\interface\\gamepauser\\pausebuttonhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|solutionrelative:assets\\gameexample\\scripts\\interface\\gamepauser\\pausebuttonhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\assets\\gameexample\\scripts\\systems\\input\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|solutionrelative:assets\\gameexample\\scripts\\systems\\input\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C118A0E9-55FA-CB8E-83B9-04FA31A7467C}|Zenject.csproj|D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\assets\\plugins\\zenject\\source\\util\\unityutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C118A0E9-55FA-CB8E-83B9-04FA31A7467C}|Zenject.csproj|solutionrelative:assets\\plugins\\zenject\\source\\util\\unityutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C118A0E9-55FA-CB8E-83B9-04FA31A7467C}|Zenject.csproj|D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\assets\\plugins\\zenject\\source\\install\\contexts\\scenecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C118A0E9-55FA-CB8E-83B9-04FA31A7467C}|Zenject.csproj|solutionrelative:assets\\plugins\\zenject\\source\\install\\contexts\\scenecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C118A0E9-55FA-CB8E-83B9-04FA31A7467C}|Zenject.csproj|D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\assets\\plugins\\zenject\\source\\install\\contexts\\projectcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C118A0E9-55FA-CB8E-83B9-04FA31A7467C}|Zenject.csproj|solutionrelative:assets\\plugins\\zenject\\source\\install\\contexts\\projectcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0536BA0F-9346-B40C-D198-1CC603648DBA}|Zenject-Editor.csproj|D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\assets\\plugins\\zenject\\source\\editor\\editors\\scenecontexteditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0536BA0F-9346-B40C-D198-1CC603648DBA}|Zenject-Editor.csproj|solutionrelative:assets\\plugins\\zenject\\source\\editor\\editors\\scenecontexteditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\assets\\gameexample\\scripts\\systems\\common\\timer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|solutionrelative:assets\\gameexample\\scripts\\systems\\common\\timer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\assets\\gameexample\\scripts\\systems\\common\\rigidbody2dcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|solutionrelative:assets\\gameexample\\scripts\\systems\\common\\rigidbody2dcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\assets\\gamecycle\\scripts\\gamestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|solutionrelative:assets\\gamecycle\\scripts\\gamestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\assets\\gamecycle\\scripts\\igamelisteners.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|solutionrelative:assets\\gamecycle\\scripts\\igamelisteners.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\assets\\gameexample\\scripts\\interface\\gamepauser\\pausebuttoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|solutionrelative:assets\\gameexample\\scripts\\interface\\gamepauser\\pausebuttoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\assets\\gameexample\\scripts\\objects\\components\\teamcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|solutionrelative:assets\\gameexample\\scripts\\objects\\components\\teamcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\assets\\gameexample\\scripts\\systems\\level\\levelbackground.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -125,14 +177,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\assets\\gameexample\\scripts\\systems\\player\\shootcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|solutionrelative:assets\\gameexample\\scripts\\systems\\player\\shootcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\assets\\gameexample\\scripts\\systems\\player\\movecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|solutionrelative:assets\\gameexample\\scripts\\systems\\player\\movecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\assets\\gameexample\\scripts\\systems\\player\\deathobserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FFE55FF-5370-7C09-4A95-D6C2F5630B5A}|Assembly-CSharp.csproj|solutionrelative:assets\\gameexample\\scripts\\systems\\player\\deathobserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -142,106 +186,507 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 14,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "PauseButtonController.cs",
-              "DocumentMoniker": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Interface\\GamePauser\\PauseButtonController.cs",
-              "RelativeDocumentMoniker": "Assets\\GameExample\\Scripts\\Interface\\GamePauser\\PauseButtonController.cs",
-              "ToolTip": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Interface\\GamePauser\\PauseButtonController.cs",
-              "RelativeToolTip": "Assets\\GameExample\\Scripts\\Interface\\GamePauser\\PauseButtonController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T19:18:37.802Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PauseButtonHandler.cs",
-              "DocumentMoniker": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Interface\\GamePauser\\PauseButtonHandler.cs",
-              "RelativeDocumentMoniker": "Assets\\GameExample\\Scripts\\Interface\\GamePauser\\PauseButtonHandler.cs",
-              "ToolTip": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Interface\\GamePauser\\PauseButtonHandler.cs",
-              "RelativeToolTip": "Assets\\GameExample\\Scripts\\Interface\\GamePauser\\PauseButtonHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T19:17:56.262Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PauseButtonView.cs",
-              "DocumentMoniker": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Interface\\GamePauser\\PauseButtonView.cs",
-              "RelativeDocumentMoniker": "Assets\\GameExample\\Scripts\\Interface\\GamePauser\\PauseButtonView.cs",
-              "ToolTip": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Interface\\GamePauser\\PauseButtonView.cs",
-              "RelativeToolTip": "Assets\\GameExample\\Scripts\\Interface\\GamePauser\\PauseButtonView.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T19:15:51.894Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Timer.cs",
-              "DocumentMoniker": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Systems\\Common\\Timer.cs",
-              "RelativeDocumentMoniker": "Assets\\GameExample\\Scripts\\Systems\\Common\\Timer.cs",
-              "ToolTip": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Systems\\Common\\Timer.cs",
-              "RelativeToolTip": "Assets\\GameExample\\Scripts\\Systems\\Common\\Timer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "BulletFactory.cs",
+              "DocumentMoniker": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Systems\\Bullet\\BulletFactory.cs",
+              "RelativeDocumentMoniker": "Assets\\GameExample\\Scripts\\Systems\\Bullet\\BulletFactory.cs",
+              "ToolTip": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Systems\\Bullet\\BulletFactory.cs",
+              "RelativeToolTip": "Assets\\GameExample\\Scripts\\Systems\\Bullet\\BulletFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T18:54:09.457Z",
+              "WhenOpened": "2025-03-27T15:44:58.74Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "GameStarterModel.cs",
-              "DocumentMoniker": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Interface\\GameStarter\\GameStarterModel.cs",
-              "RelativeDocumentMoniker": "Assets\\GameExample\\Scripts\\Interface\\GameStarter\\GameStarterModel.cs",
-              "ToolTip": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Interface\\GameStarter\\GameStarterModel.cs",
-              "RelativeToolTip": "Assets\\GameExample\\Scripts\\Interface\\GameStarter\\GameStarterModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAfAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "SceneInstaller.cs",
+              "DocumentMoniker": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Installers\\SceneInstaller.cs",
+              "RelativeDocumentMoniker": "Assets\\GameExample\\Scripts\\Installers\\SceneInstaller.cs",
+              "ToolTip": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Installers\\SceneInstaller.cs",
+              "RelativeToolTip": "Assets\\GameExample\\Scripts\\Installers\\SceneInstaller.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAIwG0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T18:39:47.869Z",
+              "WhenOpened": "2025-03-26T14:38:27.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SceneSystemInstaller.cs",
+              "DocumentMoniker": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Installers\\SceneSystemInstaller.cs",
+              "RelativeDocumentMoniker": "Assets\\GameExample\\Scripts\\Installers\\SceneSystemInstaller.cs",
+              "ToolTip": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Installers\\SceneSystemInstaller.cs",
+              "RelativeToolTip": "Assets\\GameExample\\Scripts\\Installers\\SceneSystemInstaller.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T14:45:06.684Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "StartButtonHandler.cs",
-              "DocumentMoniker": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Interface\\GameStarter\\StartButtonHandler.cs",
-              "RelativeDocumentMoniker": "Assets\\GameExample\\Scripts\\Interface\\GameStarter\\StartButtonHandler.cs",
-              "ToolTip": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Interface\\GameStarter\\StartButtonHandler.cs",
-              "RelativeToolTip": "Assets\\GameExample\\Scripts\\Interface\\GameStarter\\StartButtonHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAkAAAAAAAAAA==",
+              "Title": "PlayerSystemInstaller.cs",
+              "DocumentMoniker": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Installers\\PlayerSystemInstaller.cs",
+              "RelativeDocumentMoniker": "Assets\\GameExample\\Scripts\\Installers\\PlayerSystemInstaller.cs",
+              "ToolTip": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Installers\\PlayerSystemInstaller.cs",
+              "RelativeToolTip": "Assets\\GameExample\\Scripts\\Installers\\PlayerSystemInstaller.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T18:38:54.838Z",
+              "WhenOpened": "2025-03-26T15:18:02.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "EnemyPositions.cs",
+              "DocumentMoniker": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Systems\\Enemy\\EnemyPositions.cs",
+              "RelativeDocumentMoniker": "Assets\\GameExample\\Scripts\\Systems\\Enemy\\EnemyPositions.cs",
+              "ToolTip": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Systems\\Enemy\\EnemyPositions.cs",
+              "RelativeToolTip": "Assets\\GameExample\\Scripts\\Systems\\Enemy\\EnemyPositions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T16:28:05.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EnemyPool.cs",
+              "DocumentMoniker": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Systems\\Enemy\\EnemyPool.cs",
+              "RelativeDocumentMoniker": "Assets\\GameExample\\Scripts\\Systems\\Enemy\\EnemyPool.cs",
+              "ToolTip": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Systems\\Enemy\\EnemyPool.cs",
+              "RelativeToolTip": "Assets\\GameExample\\Scripts\\Systems\\Enemy\\EnemyPool.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwCMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T16:40:14.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EnemySystemInstaller.cs",
+              "DocumentMoniker": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Installers\\EnemySystemInstaller.cs",
+              "RelativeDocumentMoniker": "Assets\\GameExample\\Scripts\\Installers\\EnemySystemInstaller.cs",
+              "ToolTip": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Installers\\EnemySystemInstaller.cs",
+              "RelativeToolTip": "Assets\\GameExample\\Scripts\\Installers\\EnemySystemInstaller.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T15:24:02.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ITickableListeners.cs",
+              "DocumentMoniker": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameCycle\\Scripts\\ITickableListeners.cs",
+              "RelativeDocumentMoniker": "Assets\\GameCycle\\Scripts\\ITickableListeners.cs",
+              "ToolTip": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameCycle\\Scripts\\ITickableListeners.cs",
+              "RelativeToolTip": "Assets\\GameCycle\\Scripts\\ITickableListeners.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T19:45:02.715Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "GameStarterView.cs",
-              "DocumentMoniker": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Interface\\GameStarter\\GameStarterView.cs",
-              "RelativeDocumentMoniker": "Assets\\GameExample\\Scripts\\Interface\\GameStarter\\GameStarterView.cs",
-              "ToolTip": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Interface\\GameStarter\\GameStarterView.cs",
-              "RelativeToolTip": "Assets\\GameExample\\Scripts\\Interface\\GameStarter\\GameStarterView.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "Title": "GameCycle.cs",
+              "DocumentMoniker": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameCycle\\Scripts\\GameCycle.cs",
+              "RelativeDocumentMoniker": "Assets\\GameCycle\\Scripts\\GameCycle.cs",
+              "ToolTip": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameCycle\\Scripts\\GameCycle.cs",
+              "RelativeToolTip": "Assets\\GameCycle\\Scripts\\GameCycle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T18:35:28.644Z",
+              "WhenOpened": "2025-03-27T19:34:10.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GameKernel.cs",
+              "DocumentMoniker": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameCycle\\Scripts\\GameKernel.cs",
+              "RelativeDocumentMoniker": "Assets\\GameCycle\\Scripts\\GameKernel.cs",
+              "ToolTip": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameCycle\\Scripts\\GameKernel.cs",
+              "RelativeToolTip": "Assets\\GameCycle\\Scripts\\GameKernel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T19:37:37.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HitPointsComponent.cs",
+              "DocumentMoniker": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Objects\\Components\\HitPointsComponent.cs",
+              "RelativeDocumentMoniker": "Assets\\GameExample\\Scripts\\Objects\\Components\\HitPointsComponent.cs",
+              "ToolTip": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Objects\\Components\\HitPointsComponent.cs",
+              "RelativeToolTip": "Assets\\GameExample\\Scripts\\Objects\\Components\\HitPointsComponent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T15:03:50.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MoveComponent.cs",
+              "DocumentMoniker": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Objects\\Components\\MoveComponent.cs",
+              "RelativeDocumentMoniker": "Assets\\GameExample\\Scripts\\Objects\\Components\\MoveComponent.cs",
+              "ToolTip": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Objects\\Components\\MoveComponent.cs",
+              "RelativeToolTip": "Assets\\GameExample\\Scripts\\Objects\\Components\\MoveComponent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T15:04:48.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BulletPool.cs",
+              "DocumentMoniker": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Systems\\Bullet\\BulletPool.cs",
+              "RelativeDocumentMoniker": "Assets\\GameExample\\Scripts\\Systems\\Bullet\\BulletPool.cs",
+              "ToolTip": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Systems\\Bullet\\BulletPool.cs",
+              "RelativeToolTip": "Assets\\GameExample\\Scripts\\Systems\\Bullet\\BulletPool.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAQwBcAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T15:17:37.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BulletManager.cs",
+              "DocumentMoniker": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Systems\\Bullet\\BulletManager.cs",
+              "RelativeDocumentMoniker": "Assets\\GameExample\\Scripts\\Systems\\Bullet\\BulletManager.cs",
+              "ToolTip": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Systems\\Bullet\\BulletManager.cs",
+              "RelativeToolTip": "Assets\\GameExample\\Scripts\\Systems\\Bullet\\BulletManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T15:36:45.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "EnemyMoveAgent.cs",
+              "DocumentMoniker": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Systems\\Enemy\\Agents\\EnemyMoveAgent.cs",
+              "RelativeDocumentMoniker": "Assets\\GameExample\\Scripts\\Systems\\Enemy\\Agents\\EnemyMoveAgent.cs",
+              "ToolTip": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Systems\\Enemy\\Agents\\EnemyMoveAgent.cs",
+              "RelativeToolTip": "Assets\\GameExample\\Scripts\\Systems\\Enemy\\Agents\\EnemyMoveAgent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T17:01:01.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MoveController.cs",
+              "DocumentMoniker": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Systems\\Player\\MoveController.cs",
+              "RelativeDocumentMoniker": "Assets\\GameExample\\Scripts\\Systems\\Player\\MoveController.cs",
+              "ToolTip": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Systems\\Player\\MoveController.cs",
+              "RelativeToolTip": "Assets\\GameExample\\Scripts\\Systems\\Player\\MoveController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T15:34:23.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DeathObserver.cs",
+              "DocumentMoniker": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Systems\\Player\\DeathObserver.cs",
+              "RelativeDocumentMoniker": "Assets\\GameExample\\Scripts\\Systems\\Player\\DeathObserver.cs",
+              "ToolTip": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Systems\\Player\\DeathObserver.cs",
+              "RelativeToolTip": "Assets\\GameExample\\Scripts\\Systems\\Player\\DeathObserver.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T15:32:04.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ComponentsInstaller.cs",
+              "DocumentMoniker": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Installers\\ComponentsInstaller.cs",
+              "RelativeDocumentMoniker": "Assets\\GameExample\\Scripts\\Installers\\ComponentsInstaller.cs",
+              "ToolTip": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Installers\\ComponentsInstaller.cs",
+              "RelativeToolTip": "Assets\\GameExample\\Scripts\\Installers\\ComponentsInstaller.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T14:54:16.648Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 18,
+              "Title": "EnemyConstructor.cs",
+              "DocumentMoniker": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Objects\\EnemyConstructor.cs",
+              "RelativeDocumentMoniker": "Assets\\GameExample\\Scripts\\Objects\\EnemyConstructor.cs",
+              "ToolTip": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Objects\\EnemyConstructor.cs",
+              "RelativeToolTip": "Assets\\GameExample\\Scripts\\Objects\\EnemyConstructor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T00:01:10.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "WeaponComponent.cs",
+              "DocumentMoniker": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Objects\\Components\\WeaponComponent.cs",
+              "RelativeDocumentMoniker": "Assets\\GameExample\\Scripts\\Objects\\Components\\WeaponComponent.cs",
+              "ToolTip": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Objects\\Components\\WeaponComponent.cs",
+              "RelativeToolTip": "Assets\\GameExample\\Scripts\\Objects\\Components\\WeaponComponent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T15:50:30.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Bullet.cs",
+              "DocumentMoniker": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Objects\\Bullet\\Bullet.cs",
+              "RelativeDocumentMoniker": "Assets\\GameExample\\Scripts\\Objects\\Bullet\\Bullet.cs",
+              "ToolTip": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Objects\\Bullet\\Bullet.cs",
+              "RelativeToolTip": "Assets\\GameExample\\Scripts\\Objects\\Bullet\\Bullet.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T15:49:15.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "GameCycleDebug.cs",
+              "DocumentMoniker": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameCycle\\Debug\\GameCycleDebug.cs",
+              "RelativeDocumentMoniker": "Assets\\GameCycle\\Debug\\GameCycleDebug.cs",
+              "ToolTip": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameCycle\\Debug\\GameCycleDebug.cs",
+              "RelativeToolTip": "Assets\\GameCycle\\Debug\\GameCycleDebug.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T19:35:56.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "EnemyAttackAgent.cs",
+              "DocumentMoniker": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Systems\\Enemy\\Agents\\EnemyAttackAgent.cs",
+              "RelativeDocumentMoniker": "Assets\\GameExample\\Scripts\\Systems\\Enemy\\Agents\\EnemyAttackAgent.cs",
+              "ToolTip": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Systems\\Enemy\\Agents\\EnemyAttackAgent.cs",
+              "RelativeToolTip": "Assets\\GameExample\\Scripts\\Systems\\Enemy\\Agents\\EnemyAttackAgent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T17:04:02.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "EnemyFactory.cs",
+              "DocumentMoniker": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Systems\\Enemy\\EnemyFactory.cs",
+              "RelativeDocumentMoniker": "Assets\\GameExample\\Scripts\\Systems\\Enemy\\EnemyFactory.cs",
+              "ToolTip": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Systems\\Enemy\\EnemyFactory.cs",
+              "RelativeToolTip": "Assets\\GameExample\\Scripts\\Systems\\Enemy\\EnemyFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T16:51:52.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "EnemySpawner.cs",
+              "DocumentMoniker": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Systems\\Enemy\\EnemySpawner.cs",
+              "RelativeDocumentMoniker": "Assets\\GameExample\\Scripts\\Systems\\Enemy\\EnemySpawner.cs",
+              "ToolTip": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Systems\\Enemy\\EnemySpawner.cs",
+              "RelativeToolTip": "Assets\\GameExample\\Scripts\\Systems\\Enemy\\EnemySpawner.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowB0AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T16:08:38.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "GameStarterView.cs",
+              "DocumentMoniker": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Interface\\GameStarter\\GameStarterView.cs",
+              "RelativeDocumentMoniker": "Assets\\GameExample\\Scripts\\Interface\\GameStarter\\GameStarterView.cs",
+              "ToolTip": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Interface\\GameStarter\\GameStarterView.cs",
+              "RelativeToolTip": "Assets\\GameExample\\Scripts\\Interface\\GameStarter\\GameStarterView.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T18:35:28.644Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "StartButtonHandler.cs",
+              "DocumentMoniker": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Interface\\GameStarter\\StartButtonHandler.cs",
+              "RelativeDocumentMoniker": "Assets\\GameExample\\Scripts\\Interface\\GameStarter\\StartButtonHandler.cs",
+              "ToolTip": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Interface\\GameStarter\\StartButtonHandler.cs",
+              "RelativeToolTip": "Assets\\GameExample\\Scripts\\Interface\\GameStarter\\StartButtonHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T18:38:54.838Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "PauseButtonView.cs",
+              "DocumentMoniker": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Interface\\GamePauser\\PauseButtonView.cs",
+              "RelativeDocumentMoniker": "Assets\\GameExample\\Scripts\\Interface\\GamePauser\\PauseButtonView.cs",
+              "ToolTip": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Interface\\GamePauser\\PauseButtonView.cs",
+              "RelativeToolTip": "Assets\\GameExample\\Scripts\\Interface\\GamePauser\\PauseButtonView.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T19:15:51.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "PauseButtonHandler.cs",
+              "DocumentMoniker": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Interface\\GamePauser\\PauseButtonHandler.cs",
+              "RelativeDocumentMoniker": "Assets\\GameExample\\Scripts\\Interface\\GamePauser\\PauseButtonHandler.cs",
+              "ToolTip": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Interface\\GamePauser\\PauseButtonHandler.cs",
+              "RelativeToolTip": "Assets\\GameExample\\Scripts\\Interface\\GamePauser\\PauseButtonHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T19:17:56.262Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "GameStarterModel.cs",
+              "DocumentMoniker": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Interface\\GameStarter\\GameStarterModel.cs",
+              "RelativeDocumentMoniker": "Assets\\GameExample\\Scripts\\Interface\\GameStarter\\GameStarterModel.cs",
+              "ToolTip": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Interface\\GameStarter\\GameStarterModel.cs",
+              "RelativeToolTip": "Assets\\GameExample\\Scripts\\Interface\\GameStarter\\GameStarterModel.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowEAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T18:39:47.869Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "InputManager.cs",
+              "DocumentMoniker": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Systems\\Input\\InputManager.cs",
+              "RelativeDocumentMoniker": "Assets\\GameExample\\Scripts\\Systems\\Input\\InputManager.cs",
+              "ToolTip": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Systems\\Input\\InputManager.cs",
+              "RelativeToolTip": "Assets\\GameExample\\Scripts\\Systems\\Input\\InputManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T15:42:26.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "UnityUtil.cs",
+              "DocumentMoniker": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\Plugins\\Zenject\\Source\\Util\\UnityUtil.cs",
+              "RelativeDocumentMoniker": "Assets\\Plugins\\Zenject\\Source\\Util\\UnityUtil.cs",
+              "ToolTip": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\Plugins\\Zenject\\Source\\Util\\UnityUtil.cs",
+              "RelativeToolTip": "Assets\\Plugins\\Zenject\\Source\\Util\\UnityUtil.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAiwIkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T20:07:52.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "SceneContext.cs",
+              "DocumentMoniker": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\Plugins\\Zenject\\Source\\Install\\Contexts\\SceneContext.cs",
+              "RelativeDocumentMoniker": "Assets\\Plugins\\Zenject\\Source\\Install\\Contexts\\SceneContext.cs",
+              "ToolTip": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\Plugins\\Zenject\\Source\\Install\\Contexts\\SceneContext.cs",
+              "RelativeToolTip": "Assets\\Plugins\\Zenject\\Source\\Install\\Contexts\\SceneContext.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAQwDMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T19:53:32.064Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ProjectContext.cs",
+              "DocumentMoniker": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\Plugins\\Zenject\\Source\\Install\\Contexts\\ProjectContext.cs",
+              "RelativeDocumentMoniker": "Assets\\Plugins\\Zenject\\Source\\Install\\Contexts\\ProjectContext.cs",
+              "ToolTip": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\Plugins\\Zenject\\Source\\Install\\Contexts\\ProjectContext.cs",
+              "RelativeToolTip": "Assets\\Plugins\\Zenject\\Source\\Install\\Contexts\\ProjectContext.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAAAG0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T20:08:33.311Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "SceneContextEditor.cs",
+              "DocumentMoniker": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\Plugins\\Zenject\\Source\\Editor\\Editors\\SceneContextEditor.cs",
+              "RelativeDocumentMoniker": "Assets\\Plugins\\Zenject\\Source\\Editor\\Editors\\SceneContextEditor.cs",
+              "ToolTip": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\Plugins\\Zenject\\Source\\Editor\\Editors\\SceneContextEditor.cs",
+              "RelativeToolTip": "Assets\\Plugins\\Zenject\\Source\\Editor\\Editors\\SceneContextEditor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T19:59:45.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Timer.cs",
+              "DocumentMoniker": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Systems\\Common\\Timer.cs",
+              "RelativeDocumentMoniker": "Assets\\GameExample\\Scripts\\Systems\\Common\\Timer.cs",
+              "ToolTip": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Systems\\Common\\Timer.cs",
+              "RelativeToolTip": "Assets\\GameExample\\Scripts\\Systems\\Common\\Timer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T18:54:09.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "RigidBody2DController.cs",
+              "DocumentMoniker": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Systems\\Common\\RigidBody2DController.cs",
+              "RelativeDocumentMoniker": "Assets\\GameExample\\Scripts\\Systems\\Common\\RigidBody2DController.cs",
+              "ToolTip": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Systems\\Common\\RigidBody2DController.cs",
+              "RelativeToolTip": "Assets\\GameExample\\Scripts\\Systems\\Common\\RigidBody2DController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T17:08:25.156Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "GameState.cs",
+              "DocumentMoniker": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameCycle\\Scripts\\GameState.cs",
+              "RelativeDocumentMoniker": "Assets\\GameCycle\\Scripts\\GameState.cs",
+              "ToolTip": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameCycle\\Scripts\\GameState.cs",
+              "RelativeToolTip": "Assets\\GameCycle\\Scripts\\GameState.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T20:02:18.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "IGameListeners.cs",
+              "DocumentMoniker": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameCycle\\Scripts\\IGameListeners.cs",
+              "RelativeDocumentMoniker": "Assets\\GameCycle\\Scripts\\IGameListeners.cs",
+              "ToolTip": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameCycle\\Scripts\\IGameListeners.cs",
+              "RelativeToolTip": "Assets\\GameCycle\\Scripts\\IGameListeners.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T20:03:19.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
               "Title": "TeamComponent.cs",
               "DocumentMoniker": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Objects\\Components\\TeamComponent.cs",
               "RelativeDocumentMoniker": "Assets\\GameExample\\Scripts\\Objects\\Components\\TeamComponent.cs",
@@ -253,251 +698,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "WeaponComponent.cs",
-              "DocumentMoniker": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Objects\\Components\\WeaponComponent.cs",
-              "RelativeDocumentMoniker": "Assets\\GameExample\\Scripts\\Objects\\Components\\WeaponComponent.cs",
-              "ToolTip": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Objects\\Components\\WeaponComponent.cs",
-              "RelativeToolTip": "Assets\\GameExample\\Scripts\\Objects\\Components\\WeaponComponent.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAqAAAAAAAAAA==",
+              "DocumentIndex": 39,
+              "Title": "PauseButtonController.cs",
+              "DocumentMoniker": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Interface\\GamePauser\\PauseButtonController.cs",
+              "RelativeDocumentMoniker": "Assets\\GameExample\\Scripts\\Interface\\GamePauser\\PauseButtonController.cs",
+              "ToolTip": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Interface\\GamePauser\\PauseButtonController.cs",
+              "RelativeToolTip": "Assets\\GameExample\\Scripts\\Interface\\GamePauser\\PauseButtonController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T15:50:30.661Z"
+              "WhenOpened": "2025-03-27T19:18:37.802Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BulletFactory.cs",
-              "DocumentMoniker": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Systems\\Bullet\\BulletFactory.cs",
-              "RelativeDocumentMoniker": "Assets\\GameExample\\Scripts\\Systems\\Bullet\\BulletFactory.cs",
-              "ToolTip": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Systems\\Bullet\\BulletFactory.cs",
-              "RelativeToolTip": "Assets\\GameExample\\Scripts\\Systems\\Bullet\\BulletFactory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T15:44:58.74Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BulletPool.cs",
-              "DocumentMoniker": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Systems\\Bullet\\BulletPool.cs",
-              "RelativeDocumentMoniker": "Assets\\GameExample\\Scripts\\Systems\\Bullet\\BulletPool.cs",
-              "ToolTip": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Systems\\Bullet\\BulletPool.cs",
-              "RelativeToolTip": "Assets\\GameExample\\Scripts\\Systems\\Bullet\\BulletPool.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAA1wBcAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T15:17:37.877Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "MoveComponent.cs",
-              "DocumentMoniker": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Objects\\Components\\MoveComponent.cs",
-              "RelativeDocumentMoniker": "Assets\\GameExample\\Scripts\\Objects\\Components\\MoveComponent.cs",
-              "ToolTip": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Objects\\Components\\MoveComponent.cs",
-              "RelativeToolTip": "Assets\\GameExample\\Scripts\\Objects\\Components\\MoveComponent.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T15:04:48.577Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "HitPointsComponent.cs",
-              "DocumentMoniker": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Objects\\Components\\HitPointsComponent.cs",
-              "RelativeDocumentMoniker": "Assets\\GameExample\\Scripts\\Objects\\Components\\HitPointsComponent.cs",
-              "ToolTip": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Objects\\Components\\HitPointsComponent.cs",
-              "RelativeToolTip": "Assets\\GameExample\\Scripts\\Objects\\Components\\HitPointsComponent.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T15:03:50.819Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SceneInstaller.cs",
-              "DocumentMoniker": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Installers\\SceneInstaller.cs",
-              "RelativeDocumentMoniker": "Assets\\GameExample\\Scripts\\Installers\\SceneInstaller.cs",
-              "ToolTip": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Installers\\SceneInstaller.cs",
-              "RelativeToolTip": "Assets\\GameExample\\Scripts\\Installers\\SceneInstaller.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T14:38:27.541Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "EnemyMoveAgent.cs",
-              "DocumentMoniker": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Systems\\Enemy\\Agents\\EnemyMoveAgent.cs",
-              "RelativeDocumentMoniker": "Assets\\GameExample\\Scripts\\Systems\\Enemy\\Agents\\EnemyMoveAgent.cs",
-              "ToolTip": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Systems\\Enemy\\Agents\\EnemyMoveAgent.cs",
-              "RelativeToolTip": "Assets\\GameExample\\Scripts\\Systems\\Enemy\\Agents\\EnemyMoveAgent.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T17:01:01.37Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "EnemyFactory.cs",
-              "DocumentMoniker": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Systems\\Enemy\\EnemyFactory.cs",
-              "RelativeDocumentMoniker": "Assets\\GameExample\\Scripts\\Systems\\Enemy\\EnemyFactory.cs",
-              "ToolTip": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Systems\\Enemy\\EnemyFactory.cs",
-              "RelativeToolTip": "Assets\\GameExample\\Scripts\\Systems\\Enemy\\EnemyFactory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T16:51:52.135Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "EnemyPool.cs",
-              "DocumentMoniker": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Systems\\Enemy\\EnemyPool.cs",
-              "RelativeDocumentMoniker": "Assets\\GameExample\\Scripts\\Systems\\Enemy\\EnemyPool.cs",
-              "ToolTip": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Systems\\Enemy\\EnemyPool.cs",
-              "RelativeToolTip": "Assets\\GameExample\\Scripts\\Systems\\Enemy\\EnemyPool.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T16:40:14.588Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "SceneSystemInstaller.cs",
-              "DocumentMoniker": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Installers\\SceneSystemInstaller.cs",
-              "RelativeDocumentMoniker": "Assets\\GameExample\\Scripts\\Installers\\SceneSystemInstaller.cs",
-              "ToolTip": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Installers\\SceneSystemInstaller.cs",
-              "RelativeToolTip": "Assets\\GameExample\\Scripts\\Installers\\SceneSystemInstaller.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T14:45:06.684Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "PlayerSystemInstaller.cs",
-              "DocumentMoniker": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Installers\\PlayerSystemInstaller.cs",
-              "RelativeDocumentMoniker": "Assets\\GameExample\\Scripts\\Installers\\PlayerSystemInstaller.cs",
-              "ToolTip": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Installers\\PlayerSystemInstaller.cs",
-              "RelativeToolTip": "Assets\\GameExample\\Scripts\\Installers\\PlayerSystemInstaller.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T15:18:02.417Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ComponentsInstaller.cs",
-              "DocumentMoniker": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Installers\\ComponentsInstaller.cs",
-              "RelativeDocumentMoniker": "Assets\\GameExample\\Scripts\\Installers\\ComponentsInstaller.cs",
-              "ToolTip": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Installers\\ComponentsInstaller.cs",
-              "RelativeToolTip": "Assets\\GameExample\\Scripts\\Installers\\ComponentsInstaller.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T14:54:16.648Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "EnemySystemInstaller.cs",
-              "DocumentMoniker": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Installers\\EnemySystemInstaller.cs",
-              "RelativeDocumentMoniker": "Assets\\GameExample\\Scripts\\Installers\\EnemySystemInstaller.cs",
-              "ToolTip": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Installers\\EnemySystemInstaller.cs",
-              "RelativeToolTip": "Assets\\GameExample\\Scripts\\Installers\\EnemySystemInstaller.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T15:24:02.01Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Bullet.cs",
-              "DocumentMoniker": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Objects\\Bullet\\Bullet.cs",
-              "RelativeDocumentMoniker": "Assets\\GameExample\\Scripts\\Objects\\Bullet\\Bullet.cs",
-              "ToolTip": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Objects\\Bullet\\Bullet.cs",
-              "RelativeToolTip": "Assets\\GameExample\\Scripts\\Objects\\Bullet\\Bullet.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T15:49:15.997Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "BulletManager.cs",
-              "DocumentMoniker": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Systems\\Bullet\\BulletManager.cs",
-              "RelativeDocumentMoniker": "Assets\\GameExample\\Scripts\\Systems\\Bullet\\BulletManager.cs",
-              "ToolTip": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Systems\\Bullet\\BulletManager.cs",
-              "RelativeToolTip": "Assets\\GameExample\\Scripts\\Systems\\Bullet\\BulletManager.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCcAAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T15:36:45.728Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "InputManager.cs",
-              "DocumentMoniker": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Systems\\Input\\InputManager.cs",
-              "RelativeDocumentMoniker": "Assets\\GameExample\\Scripts\\Systems\\Input\\InputManager.cs",
-              "ToolTip": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Systems\\Input\\InputManager.cs",
-              "RelativeToolTip": "Assets\\GameExample\\Scripts\\Systems\\Input\\InputManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T15:42:26.99Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "EnemySpawner.cs",
-              "DocumentMoniker": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Systems\\Enemy\\EnemySpawner.cs",
-              "RelativeDocumentMoniker": "Assets\\GameExample\\Scripts\\Systems\\Enemy\\EnemySpawner.cs",
-              "ToolTip": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Systems\\Enemy\\EnemySpawner.cs",
-              "RelativeToolTip": "Assets\\GameExample\\Scripts\\Systems\\Enemy\\EnemySpawner.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T16:08:38.43Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "EnemyPositions.cs",
-              "DocumentMoniker": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Systems\\Enemy\\EnemyPositions.cs",
-              "RelativeDocumentMoniker": "Assets\\GameExample\\Scripts\\Systems\\Enemy\\EnemyPositions.cs",
-              "ToolTip": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Systems\\Enemy\\EnemyPositions.cs",
-              "RelativeToolTip": "Assets\\GameExample\\Scripts\\Systems\\Enemy\\EnemyPositions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T16:28:05.418Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "EnemyAttackAgent.cs",
-              "DocumentMoniker": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Systems\\Enemy\\Agents\\EnemyAttackAgent.cs",
-              "RelativeDocumentMoniker": "Assets\\GameExample\\Scripts\\Systems\\Enemy\\Agents\\EnemyAttackAgent.cs",
-              "ToolTip": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Systems\\Enemy\\Agents\\EnemyAttackAgent.cs",
-              "RelativeToolTip": "Assets\\GameExample\\Scripts\\Systems\\Enemy\\Agents\\EnemyAttackAgent.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T17:04:02.598Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "RigidBody2DController.cs",
-              "DocumentMoniker": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Systems\\Common\\RigidBody2DController.cs",
-              "RelativeDocumentMoniker": "Assets\\GameExample\\Scripts\\Systems\\Common\\RigidBody2DController.cs",
-              "ToolTip": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Systems\\Common\\RigidBody2DController.cs",
-              "RelativeToolTip": "Assets\\GameExample\\Scripts\\Systems\\Common\\RigidBody2DController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T17:08:25.156Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 41,
               "Title": "LevelBackground.cs",
               "DocumentMoniker": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Systems\\Level\\LevelBackground.cs",
               "RelativeDocumentMoniker": "Assets\\GameExample\\Scripts\\Systems\\Level\\LevelBackground.cs",
@@ -509,7 +722,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 42,
               "Title": "LevelBounds.cs",
               "DocumentMoniker": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Systems\\Level\\LevelBounds.cs",
               "RelativeDocumentMoniker": "Assets\\GameExample\\Scripts\\Systems\\Level\\LevelBounds.cs",
@@ -521,7 +734,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 43,
               "Title": "ShootController.cs",
               "DocumentMoniker": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Systems\\Player\\ShootController.cs",
               "RelativeDocumentMoniker": "Assets\\GameExample\\Scripts\\Systems\\Player\\ShootController.cs",
@@ -530,30 +743,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-26T15:35:47.33Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "MoveController.cs",
-              "DocumentMoniker": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Systems\\Player\\MoveController.cs",
-              "RelativeDocumentMoniker": "Assets\\GameExample\\Scripts\\Systems\\Player\\MoveController.cs",
-              "ToolTip": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Systems\\Player\\MoveController.cs",
-              "RelativeToolTip": "Assets\\GameExample\\Scripts\\Systems\\Player\\MoveController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T15:34:23.759Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "DeathObserver.cs",
-              "DocumentMoniker": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Systems\\Player\\DeathObserver.cs",
-              "RelativeDocumentMoniker": "Assets\\GameExample\\Scripts\\Systems\\Player\\DeathObserver.cs",
-              "ToolTip": "D:\\STUDY\\Otus\\HomeWorks\\Unity-Game-Mechanics\\Assets\\GameExample\\Scripts\\Systems\\Player\\DeathObserver.cs",
-              "RelativeToolTip": "Assets\\GameExample\\Scripts\\Systems\\Player\\DeathObserver.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T15:32:04.572Z"
             }
           ]
         }

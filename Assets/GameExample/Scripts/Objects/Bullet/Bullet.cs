@@ -3,8 +3,9 @@ using UnityEngine;
 
 namespace ShootEmUp
 {
-    public sealed class Bullet : MonoBehaviour,
-        IGameFixedTickable
+    [RequireComponent(typeof(Rigidbody2D))]
+    [RequireComponent(typeof(SpriteRenderer))]
+    public sealed class Bullet : MonoBehaviour
     {
         public event Action<Bullet> OnBulletDestroy;
 
@@ -14,13 +15,16 @@ namespace ShootEmUp
         [NonSerialized]
         public int damage;
 
-        [SerializeField]
         private new Rigidbody2D rigidbody2D;
-
-        [SerializeField]
         private SpriteRenderer spriteRenderer;
 
         private Vector2 velocity;
+
+        private void Awake()
+        {
+            this.rigidbody2D = this.gameObject.GetComponent<Rigidbody2D>();
+            this.spriteRenderer = this.gameObject.GetComponent<SpriteRenderer>();
+        }
 
         private void OnCollisionEnter2D(Collision2D collision)
         {
@@ -28,7 +32,7 @@ namespace ShootEmUp
             this.Destroy();
         }
 
-        void IGameFixedTickable.FixedTick(float deltaTime)
+        public void OnMove(float deltaTime)
         {
             Vector2 nextPosition = this.rigidbody2D.position + this.velocity * Time.fixedDeltaTime;
             this.rigidbody2D.MovePosition(nextPosition);

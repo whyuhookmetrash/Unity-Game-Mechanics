@@ -10,13 +10,17 @@ namespace ShootEmUp
     {
         public override void InstallBindings()
         {
-            Container
+            this.Container
                 .BindInterfacesAndSelfTo<InputManager>()
                 .AsSingle();
 
-            Container
-                .BindInterfacesAndSelfTo<Timer>()
+            this.Container
+                .Bind<Timer>()
                 .AsTransient();
+
+            this.Container
+                .Bind<GameCycle>()
+                .AsSingle();
         }
     }
 }

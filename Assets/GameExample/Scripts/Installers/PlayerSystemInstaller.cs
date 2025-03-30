@@ -11,20 +11,17 @@ namespace ShootEmUp
     {
         public override void InstallBindings()
         {
-            Container
+            this.Container
                 .BindInterfacesTo<DeathObserver>()
-                .AsSingle()
-                .NonLazy();
+                .AsSingle();
 
-            Container
+            this.Container
                 .BindInterfacesTo<MoveController>()
-                .AsSingle()
-                .NonLazy();
+                .AsSingle();
 
-            Container
+            this.Container
                 .BindInterfacesTo<ShootController>()
-                .AsSingle()
-                .NonLazy();
+                .AsSingle();
         }
     }
 }

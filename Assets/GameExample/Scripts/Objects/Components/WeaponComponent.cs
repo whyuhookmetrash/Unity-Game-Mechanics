@@ -35,7 +35,7 @@ namespace ShootEmUp
 
         void IGameFixedTickable.FixedTick(float deltaTime)
         {
-            this.rechargeCurrentTime -= Time.fixedDeltaTime;
+            this.rechargeCurrentTime -= deltaTime;
             if (this.rechargeCurrentTime <= 0)
             {
                 this.canShoot = true;

@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using Zenject;
 
 namespace ShootEmUp
 {
@@ -9,7 +10,7 @@ namespace ShootEmUp
         public event Action<Vector2> OnMoveInput;
         public event Action<Vector2> OnShootInput;
 
-        void ITickable.Tick(float deltaTime)
+        void ITickable.Tick()
         {
             if (Input.GetKeyDown(KeyCode.Space))
             {

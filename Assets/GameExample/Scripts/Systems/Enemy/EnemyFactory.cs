@@ -24,16 +24,10 @@ namespace ShootEmUp
             }
             enemy.transform.position = spawnPosition.position;
 
-            EnemyMoveAgent enemyMoveAgent;
-            if (enemy.TryGetComponent<EnemyMoveAgent>(out enemyMoveAgent))
+            EnemyConstructor enemyConstructor;
+            if (enemy.TryGetComponent<EnemyConstructor>(out enemyConstructor))
             {
-                enemyMoveAgent.SetDestination(destination.position);
-            }
-
-            EnemyAttackAgent enemyAttackAgent;
-            if (enemy.TryGetComponent<EnemyAttackAgent>(out enemyAttackAgent))
-            {
-                enemyAttackAgent.SetTarget(shootTarget);
+                enemyConstructor.SetArgs(destination, shootTarget);
             }
 
             //TODO: Сделать enemy config и присваивать тут заного кол-во хп, т.к. 8+ по счету враги берутся из пула с 0 хп и умирают от 1 удара

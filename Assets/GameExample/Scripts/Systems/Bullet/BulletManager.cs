@@ -40,6 +40,9 @@ namespace ShootEmUp
             for (int i = 0, count = this.cache.Count; i < count; i++)
             {
                 var bullet = this.cache[i];
+
+                bullet.OnMove(deltaTime);
+
                 if (!this.levelBounds.InBounds(bullet.transform.position))
                 {
                     bullet.Destroy();

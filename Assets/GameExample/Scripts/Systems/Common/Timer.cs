@@ -2,8 +2,7 @@ using System;
 
 namespace ShootEmUp
 {
-    public sealed class Timer :
-        IGameFixedTickable
+    public sealed class Timer
     {
         public event Action<int> OnSecondPass;
         public event Action OnTimerPass;
@@ -21,7 +20,7 @@ namespace ShootEmUp
             this.goalTime = goalTime;
         }
 
-        void IGameFixedTickable.FixedTick(float deltaTime)
+        public void OnFixedTick(float deltaTime)
         {
             if (!this.isTimer)
             {

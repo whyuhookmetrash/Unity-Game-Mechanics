@@ -11,12 +11,12 @@ namespace ShootEmUp
     {
         public override void InstallBindings()
         {
-            Container
+            this.Container
                 .BindInterfacesAndSelfTo<EnemyMoveAgent>()
                 .AsSingle();
 
-            Container
-                .BindInterfacesTo<EnemyAttackAgent>()
+            this.Container
+                .BindInterfacesAndSelfTo<EnemyAttackAgent>()
                 .AsSingle();
         }
     }

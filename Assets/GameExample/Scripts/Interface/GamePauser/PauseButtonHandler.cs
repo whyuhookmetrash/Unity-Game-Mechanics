@@ -8,21 +8,29 @@ namespace ShootEmUp
         IGamePauseListener,
         IGameResumeListener
     {
-        [Inject]
         private PauseButtonView pauseButtonView;
+        private GameCycle gameCycle;
+
+        [Inject]
+        public void Construct(PauseButtonView pauseButtonView, GameCycle gameCycle)
+        {
+            this.pauseButtonView = pauseButtonView;
+            this.gameCycle = gameCycle;
+        }
 
         public event Action OnButtonClick;
 
+        
         public void OnClick()
         {
             OnButtonClick?.Invoke();
-            if (GameCycle.Instance.MainState == GameState.PLAY)
+            if (this.gameCycle.MainState == GameState.PLAY)
             {
-                GameCycle.Instance.PauseGame();
+                this.gameCycle.PauseGame();
             }
-            else if (GameCycle.Instance.MainState == GameState.PAUSE)
+            else if (this.gameCycle.MainState == GameState.PAUSE)
             {
-                GameCycle.Instance.ResumeGame();
+                this.gameCycle.ResumeGame();
             }
         }
 

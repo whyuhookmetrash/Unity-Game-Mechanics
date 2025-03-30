@@ -1,6 +1,7 @@
 using UnityEngine;
 
 // Он пока не нужен, поэтому с ним ничего не делаю
+/*
 namespace ShootEmUp
 {
     [RequireComponent(typeof(Rigidbody2D))]
@@ -42,3 +43,4 @@ namespace ShootEmUp
         }
     }
 }
+*/

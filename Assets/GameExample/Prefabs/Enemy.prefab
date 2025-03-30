@@ -16,8 +16,10 @@ GameObject:
   - component: {fileID: 5568771391735819372}
   - component: {fileID: 5568771391735819373}
   - component: {fileID: 5568771391735819374}
+  - component: {fileID: -3563810916859646055}
   - component: {fileID: -4811608620787027396}
   - component: {fileID: -6466795942700090849}
+  - component: {fileID: -6980886300627391650}
   m_Layer: 11
   m_Name: Enemy
   m_TagString: Untagged
@@ -214,6 +216,18 @@ MonoBehaviour:
   firePoint: {fileID: 3195880656587174614}
   rechargeCountdown: 4
   canShoot: 0
+--- !u!114 &-3563810916859646055
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 559606060570185700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc9a35b0b460b1c48a208bfceda4d034, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &-4811608620787027396
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -232,7 +246,7 @@ MonoBehaviour:
   - {fileID: -6466795942700090849}
   _installerPrefabs: []
   _autoRun: 1
-  _kernel: {fileID: 0}
+  _kernel: {fileID: -6980886300627391650}
 --- !u!114 &-6466795942700090849
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -243,6 +257,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f5300889869ec75419d375ca1e43b900, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &-6980886300627391650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 559606060570185700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fce4682774d275d41affb863173dfcb0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &2239154907127902911

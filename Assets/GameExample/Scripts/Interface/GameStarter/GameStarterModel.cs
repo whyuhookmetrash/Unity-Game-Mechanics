@@ -8,19 +8,22 @@ namespace ShootEmUp
 {
     public sealed class GameStarterModel :
         IInitializable,
-        IDisposable
+        IDisposable,
+        IFixedTickable
     {
         private const int START_TIMER = 3;
 
         private readonly StartButtonHandler startButton;
         private readonly GameStarterView gameStarterView;
         private readonly Timer timer;
+        private readonly GameCycle gameCycle;
 
-        public GameStarterModel(StartButtonHandler startButton, GameStarterView gameStarterView, Timer timer)
+        public GameStarterModel(StartButtonHandler startButton, GameStarterView gameStarterView, Timer timer, GameCycle gameCycle)
         {
             this.startButton = startButton;
             this.gameStarterView = gameStarterView;
             this.timer = timer;
+            this.gameCycle = gameCycle;
         }
 
         void IInitializable.Initialize()
@@ -45,13 +48,18 @@ namespace ShootEmUp
         {
             this.timer.OnSecondPass -= this.ChangeSecondText;
             this.timer.OnTimerPass -= this.RunGame;
-            GameCycle.Instance.StartGame();
+            this.gameCycle.StartGame();
             gameStarterView.Active(false);
         }
 
         void IDisposable.Dispose()
         {
             this.startButton.OnButtonClick -= this.StartGame;
+        }
+
+        void IFixedTickable.FixedTick()
+        {
+            this.timer.OnFixedTick(Time.fixedDeltaTime);
         }
     }
 }

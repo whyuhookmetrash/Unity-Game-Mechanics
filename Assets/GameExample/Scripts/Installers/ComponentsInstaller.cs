@@ -10,7 +10,7 @@ namespace ShootEmUp
             MoveComponent moveComponent;
             if (this.gameObject.TryGetComponent<MoveComponent>(out moveComponent))
             {
-                Container
+                this.Container
                     .BindInterfacesAndSelfTo<MoveComponent>()
                     .FromInstance(moveComponent)
                     .AsSingle();
@@ -19,7 +19,7 @@ namespace ShootEmUp
             TeamComponent teamComponent;
             if (this.gameObject.TryGetComponent<TeamComponent>(out teamComponent))
             {
-                Container
+                this.Container
                     .Bind<TeamComponent>()
                     .FromInstance(teamComponent)
                     .AsSingle();
@@ -28,7 +28,7 @@ namespace ShootEmUp
             WeaponComponent weaponComponent;
             if (this.gameObject.TryGetComponent<WeaponComponent>(out weaponComponent))
             {
-                Container
+                this.Container
                     .BindInterfacesAndSelfTo<WeaponComponent>()
                     .FromInstance(weaponComponent)
                     .AsSingle();
@@ -37,7 +37,7 @@ namespace ShootEmUp
             HitPointsComponent hitPointsComponent;
             if (this.gameObject.TryGetComponent<HitPointsComponent>(out hitPointsComponent))
             {
-                Container
+                this.Container
                     .Bind<HitPointsComponent>()
                     .FromInstance(hitPointsComponent)
                     .AsSingle();
