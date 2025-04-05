@@ -1,4 +1,4 @@
-using UnityEngine;
+using Zenject;
 
 namespace ShootEmUp
 {
@@ -8,10 +8,10 @@ namespace ShootEmUp
         IGamePauseListener,
         IGameResumeListener
     {
-        private readonly Player player;
+        private readonly LazyInject<Player> player;
         private readonly IInputService inputService;
 
-        public ShootController(Player player, IInputService inputService)
+        public ShootController(LazyInject<Player> player, IInputService inputService)
         {
             this.player = player;
             this.inputService = inputService;
@@ -19,22 +19,22 @@ namespace ShootEmUp
 
         void IGameStartListener.OnGameStart()
         {
-            this.inputService.OnShootInput += this.player.WeaponComponent.Shoot;
+            this.inputService.OnShootInput += this.player.Value.WeaponComponent.Shoot;
         }
 
         void IGameFinishListener.OnGameFinish()
         {
-            this.inputService.OnShootInput -= this.player.WeaponComponent.Shoot;
+            this.inputService.OnShootInput -= this.player.Value.WeaponComponent.Shoot;
         }
 
         void IGamePauseListener.OnGamePause()
         {
-            this.inputService.OnShootInput -= this.player.WeaponComponent.Shoot;
+            this.inputService.OnShootInput -= this.player.Value.WeaponComponent.Shoot;
         }
 
         void IGameResumeListener.OnGameResume()
         {
-            this.inputService.OnShootInput += this.player.WeaponComponent.Shoot;
+            this.inputService.OnShootInput += this.player.Value.WeaponComponent.Shoot;
         }
     }
 }

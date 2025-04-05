@@ -11,31 +11,38 @@ namespace ShootEmUp
         IDisposable
     {
         private const int START_TIMER = 3;
+        private Timer timer;
 
         private readonly StartButtonHandler startButton;
         private readonly GameStarterView gameStarterView;
-        private readonly Timer timer;
+        private readonly LazyInject<Timer> lazyTimer;
         private readonly GameCycle gameCycle;
 
-        public GameStarterModel(StartButtonHandler startButton, GameStarterView gameStarterView, Timer timer, GameCycle gameCycle)
+        public GameStarterModel(
+            StartButtonHandler startButton,
+            GameStarterView gameStarterView,
+            LazyInject<Timer> lazyTimer,
+            GameCycle gameCycle)
         {
             this.startButton = startButton;
             this.gameStarterView = gameStarterView;
-            this.timer = timer;
+            this.lazyTimer = lazyTimer;
             this.gameCycle = gameCycle;
         }
 
         void IInitializable.Initialize()
         {
             this.startButton.OnButtonClick += this.StartGame;
+            this.timer = this.lazyTimer.Value;
         }
 
         private void StartGame()
         {
             gameStarterView.Active(true);
-            this.timer.StartTimer(START_TIMER);
+            this.timer.SetTimer(START_TIMER);
             this.timer.OnSecondPass += this.ChangeSecondText;
             this.timer.OnTimerPass += this.RunGame;
+            this.timer.OnEnable();
         }
 
         private void ChangeSecondText(int currentSecond)
@@ -47,7 +54,7 @@ namespace ShootEmUp
         {
             this.timer.OnSecondPass -= this.ChangeSecondText;
             this.timer.OnTimerPass -= this.RunGame;
-            this.timer.OnDestroy();
+            this.timer.OnDisable();
             this.gameCycle.StartGame();
             gameStarterView.Active(false);
         }
@@ -55,6 +62,7 @@ namespace ShootEmUp
         void IDisposable.Dispose()
         {
             this.startButton.OnButtonClick -= this.StartGame;
+            this.timer.OnDestroy();
         }
     }
 }

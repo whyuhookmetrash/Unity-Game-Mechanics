@@ -10,7 +10,7 @@ namespace ShootEmUp
         private readonly EnemyPositionSystem enemyPositionSystem;
         private readonly EnemyPool enemyPool;
         private readonly EnemyManager enemyManager;
-        //Player
+        private readonly LazyInject<Player> player;
         private readonly EnemySpawner.Data data;
 
         private float spawnTime;
@@ -22,13 +22,15 @@ namespace ShootEmUp
             EnemyPositionSystem enemyPositionSystem,
             EnemyPool enemyPool,
             EnemyManager enemyManager,
-            EnemySpawner.Data data
+            EnemySpawner.Data data,
+            LazyInject<Player> player
             )
         {
             this.enemyPositionSystem = enemyPositionSystem;
             this.enemyPool = enemyPool;
             this.enemyManager = enemyManager;
             this.data = data;
+            this.player = player;
         }
 
         void IInitializable.Initialize()
@@ -69,7 +71,7 @@ namespace ShootEmUp
                 enemyData = this.data.enemyData,
                 at = spawnPosition,
                 destination = attackPosition.position,
-                //shootTarget = 
+                shootTarget = this.player.Value.transform 
             });
         }
 

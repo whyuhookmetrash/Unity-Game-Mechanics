@@ -1,4 +1,4 @@
-using UnityEngine;
+using Zenject;
 
 namespace ShootEmUp
 {
@@ -6,10 +6,10 @@ namespace ShootEmUp
         IGameStartListener,
         IGameFinishListener
     {
-        private readonly Player player;
+        private readonly LazyInject<Player> player;
         private readonly GameCycle gameCycle;
 
-        public DeathObserver(Player player, GameCycle gameCycle)
+        public DeathObserver(LazyInject<Player> player, GameCycle gameCycle)
         {
             this.player = player;
             this.gameCycle = gameCycle;
@@ -17,12 +17,12 @@ namespace ShootEmUp
 
         void IGameStartListener.OnGameStart()
         {
-            this.player.OnPlayerDestroy += this.OnPlayerDeath;
+            this.player.Value.OnPlayerDestroy += this.OnPlayerDeath;
         }
 
         void IGameFinishListener.OnGameFinish()
         {
-            this.player.OnPlayerDestroy -= this.OnPlayerDeath;
+            this.player.Value.OnPlayerDestroy -= this.OnPlayerDeath;
         }
 
         private void OnPlayerDeath(Player _) => gameCycle.FinishGame();

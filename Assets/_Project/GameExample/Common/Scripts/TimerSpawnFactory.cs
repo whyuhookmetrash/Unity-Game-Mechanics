@@ -5,9 +5,9 @@ namespace ShootEmUp
     public sealed class TimerSpawnFactory :
         IFactory<Timer>
     {
-        private readonly IFactory<Timer> timerFactory;
+        private readonly TimerFactory timerFactory;
 
-        public TimerSpawnFactory(IFactory<Timer> timerFactory)
+        public TimerSpawnFactory(TimerFactory timerFactory)
         {
             this.timerFactory = timerFactory;
         }

@@ -1,34 +1,29 @@
 using System;
+using UnityEngine;
+using Zenject;
 
 namespace ShootEmUp
 {
     public sealed class Timer : RealTimeComponent,
-        IGameFixedTickable
+        IFixedTickable
     {
         public event Action<int> OnSecondPass;
         public event Action OnTimerPass;
 
-        private bool isTimer = false;
         private int currentSecond = 0;
         private float currentTime = 0f;
         private float goalTime;
 
-        public void StartTimer(float goalTime)
+        public void SetTimer(float goalTime)
         {
-            this.isTimer = true;
             this.currentTime = 0f;
             this.currentSecond = 0;
             this.goalTime = goalTime;
         }
 
-        void IGameFixedTickable.FixedTick(float deltaTime)
+        void IFixedTickable.FixedTick()
         {
-            if (!this.isTimer)
-            {
-                return;
-            }
-
-            this.currentTime += deltaTime;
+            this.currentTime += Time.fixedDeltaTime;
 
             int second = (int)this.currentTime;
             if (second > this.currentSecond)
@@ -38,7 +33,6 @@ namespace ShootEmUp
             }
             if (this.currentTime > this.goalTime)
             {
-                this.isTimer = false;
                 this.OnTimerPass?.Invoke();
             }
         }

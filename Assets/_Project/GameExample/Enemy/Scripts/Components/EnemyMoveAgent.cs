@@ -25,7 +25,7 @@ namespace ShootEmUp
         {
             this.destination = destination;
             this.isReached = false;
-            SetDirection((this.destination - (Vector2)this.moveComponent.RigidBody.position).normalized);
+            SetDirection((this.destination - (Vector2)this.moveComponent.RigidBody.transform.position).normalized);
         }
 
         private void SetDirection(Vector2 direction)
@@ -40,7 +40,7 @@ namespace ShootEmUp
                 return;
             }
             
-            float distance = (this.destination - (Vector2) this.moveComponent.RigidBody.position).magnitude;
+            float distance = (this.destination - (Vector2) this.moveComponent.RigidBody.transform.position).magnitude;
             if (distance <= DISTANCE_TO_REACH)
             {
                 this.isReached = true;

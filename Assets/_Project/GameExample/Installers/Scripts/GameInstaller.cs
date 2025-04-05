@@ -38,8 +38,13 @@ namespace ShootEmUp
                 .AsSingle();
 
             this.Container
-                .BindInterfacesTo<RealTimeRegistration>()
+                .Bind<GameTickableManager>()
                 .AsSingle();
+
+            this.Container
+                .Bind<RealTimeRegistration>()
+                .AsSingle()
+                .NonLazy();
         }
 
         private void BindProviders()
@@ -74,7 +79,7 @@ namespace ShootEmUp
                 .AsSingle();
 
             this.Container
-                .Bind(typeof(IFactory<Timer>), typeof(IRealTimeFactory))
+                .Bind(typeof(IFactory<Timer>), typeof(IRealTimeFactory), typeof(TimerFactory))
                 .To<TimerFactory>()
                 .AsSingle();
 
@@ -171,8 +176,8 @@ namespace ShootEmUp
             this.Container
                 .Bind<Player>()
                 .FromFactory<PlayerSpawnFactory>()
-                .AsSingle()
-                .NonLazy();
+                .AsSingle();
+                //.NonLazy();
 
             this.Container
                 .BindInterfacesTo<DeathObserver>()

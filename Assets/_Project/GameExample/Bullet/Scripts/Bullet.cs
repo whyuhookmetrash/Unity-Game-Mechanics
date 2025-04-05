@@ -39,7 +39,7 @@ namespace ShootEmUp
 
         private void OnCollisionEnter2D(Collision2D collision)
         {
-            if (collision is IDamageTaker damageTaker)
+            if (collision.gameObject.TryGetComponent<IDamageTaker>(out IDamageTaker damageTaker))
             {
                 BulletUtils.DealDamage(this, damageTaker);
             }

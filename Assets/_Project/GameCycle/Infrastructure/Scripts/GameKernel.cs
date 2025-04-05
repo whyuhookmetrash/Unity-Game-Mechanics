@@ -13,14 +13,8 @@ namespace ShootEmUp
         [Inject]
         GameCycle gameCycle;
 
-        [Inject(Optional = true, Source = InjectSources.Local)]
-        private List<IGameTickable> tickables = new();
-
-        [Inject(Optional = true, Source = InjectSources.Local)]
-        private List<IGameFixedTickable> fixedTickables = new();
-
-        [Inject(Optional = true, Source = InjectSources.Local)]
-        private List<IGameLateTickable> lateTickables = new();
+        [InjectLocal]
+        GameTickableManager gameTickableManager;
 
         [Inject(Optional = true, Source = InjectSources.Local)]
         private List<IGameListener> listeners = new();
@@ -86,10 +80,7 @@ namespace ShootEmUp
             if (this.gameCycle.MainState == GameState.PLAY)
             {
                 float deltaTime = Time.deltaTime;
-                foreach (var tickable in this.tickables)
-                {
-                    tickable.Tick(deltaTime);
-                }
+                this.gameTickableManager.OnUpdate(deltaTime);
             }
         }
 
@@ -100,10 +91,7 @@ namespace ShootEmUp
             if (this.gameCycle.MainState == GameState.PLAY)
             {
                 float deltaTime = Time.fixedDeltaTime;
-                foreach (var tickable in this.fixedTickables)
-                {
-                    tickable.FixedTick(deltaTime);
-                }
+                this.gameTickableManager.OnFixedUpdate(deltaTime);
             }
         }
 
@@ -114,10 +102,7 @@ namespace ShootEmUp
             if (this.gameCycle.MainState == GameState.PLAY)
             {
                 float deltaTime = Time.deltaTime;
-                foreach (var tickable in this.lateTickables)
-                {
-                    tickable.LateTick(deltaTime);
-                }
+                this.gameTickableManager.OnLateUpdate(deltaTime);
             }
         }
     }

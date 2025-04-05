@@ -1,28 +1,30 @@
+using System;
 using UnityEngine;
+using Zenject;
 
 namespace ShootEmUp
 {
     public sealed class MoveController :
-        IGameStartListener,
-        IGameFinishListener
+        IInitializable,
+        IDisposable
     {
-        private readonly Player player;
+        private readonly LazyInject<Player> player;
         private readonly IInputService inputService;
 
-        public MoveController(Player player, IInputService inputService)
+        public MoveController(LazyInject<Player> player, IInputService inputService)
         {
             this.player = player;
             this.inputService = inputService;
         }
 
-        void IGameStartListener.OnGameStart()
+        void IInitializable.Initialize()
         {
-            this.inputService.OnMoveInput += this.player.MoveComponent.ChangeDirection;
+            this.inputService.OnMoveInput += this.player.Value.MoveComponent.ChangeDirection;
         }
 
-        void IGameFinishListener.OnGameFinish()
+        void IDisposable.Dispose()
         {
-            this.inputService.OnMoveInput -= this.player.MoveComponent.ChangeDirection;
+            this.inputService.OnMoveInput -= this.player.Value.MoveComponent.ChangeDirection;
         }
     }
 }
